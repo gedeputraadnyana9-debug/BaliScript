@@ -1,0 +1,278 @@
+/* ============================================================
+   BaliScript Design Tokens
+   Cartoon palette: sunny yellow, sky blue, coral pink, leaf green
+   Bold ink outlines and chunky shadows for SD to SMA/SMK
+   ============================================================ */
+
+:root {
+  /* ---- Color ramps ---- */
+
+  /* Primary — Sky blue */
+  --c-primary-50: #e6f4ff;
+  --c-primary-100: #bfe3ff;
+  --c-primary-200: #8fcdff;
+  --c-primary-300: #56b3fb;
+  --c-primary-400: #2d97f2;
+  --c-primary-500: #1b7fe0;
+  --c-primary-600: #1565c0;
+  --c-primary-700: #0f4f9a;
+  --c-primary-800: #0c3d78;
+  --c-primary-900: #092d59;
+
+  /* Secondary — Coral pink */
+  --c-secondary-50: #fff0f5;
+  --c-secondary-100: #ffd6e5;
+  --c-secondary-200: #ffadc8;
+  --c-secondary-300: #ff7fa8;
+  --c-secondary-400: #f5588c;
+  --c-secondary-500: #e8407a;
+  --c-secondary-600: #d81b60;
+  --c-secondary-700: #ad1450;
+  --c-secondary-800: #870f3e;
+  --c-secondary-900: #620b2d;
+
+  /* Accent — Sunny yellow */
+  --c-accent-50: #fffbe0;
+  --c-accent-100: #fff3a8;
+  --c-accent-200: #ffe85c;
+  --c-accent-300: #ffdc2e;
+  --c-accent-400: #ffcd00;
+  --c-accent-500: #f5b800;
+  --c-accent-600: #d99c00;
+  --c-accent-700: #a87500;
+  --c-accent-800: #7a5300;
+  --c-accent-900: #513600;
+
+  /* Success — Leaf green */
+  --c-success-50: #edfbe9;
+  --c-success-100: #d2f5c8;
+  --c-success-200: #a8eb97;
+  --c-success-300: #77de62;
+  --c-success-400: #4fcb3c;
+  --c-success-500: #34b025;
+  --c-success-600: #2a8f1e;
+  --c-success-700: #20721a;
+  --c-success-800: #185614;
+  --c-success-900: #103b0d;
+
+  /* Warning — Tangerine */
+  --c-warning-50: #fff4e8;
+  --c-warning-100: #ffe0bf;
+  --c-warning-200: #ffc385;
+  --c-warning-300: #ffa54f;
+  --c-warning-400: #ff8c28;
+  --c-warning-500: #f57a0c;
+  --c-warning-600: #d9650a;
+  --c-warning-700: #b04f08;
+  --c-warning-800: #873b06;
+  --c-warning-900: #5f2904;
+
+  /* Error — Cherry red */
+  --c-error-50: #fff0ee;
+  --c-error-100: #ffd9d4;
+  --c-error-200: #ffb3aa;
+  --c-error-300: #ff8478;
+  --c-error-400: #f5574a;
+  --c-error-500: #e63b2e;
+  --c-error-600: #c92a1e;
+  --c-error-700: #a81f15;
+  --c-error-800: #85160f;
+  --c-error-900: #5e0f0a;
+
+  /* Neutral — Cream paper and navy ink */
+  --c-neutral-0: #ffffff;
+  --c-neutral-50: #fff9ec;
+  --c-neutral-100: #fdf1d9;
+  --c-neutral-200: #f2e2bd;
+  --c-neutral-300: #dcc89a;
+  --c-neutral-400: #b9a374;
+  --c-neutral-500: #8c7c58;
+  --c-neutral-600: #6a5d43;
+  --c-neutral-700: #4f4532;
+  --c-neutral-800: #37311f;
+  --c-neutral-900: #1b2a4a;
+  --c-neutral-950: #111c33;
+
+  /* Semantic */
+  --color-bg: var(--c-neutral-50);
+  --color-bg-alt: #fffdf6;
+  --color-surface: #ffffff;
+  --color-ink: var(--c-neutral-900);
+  --color-text: var(--c-neutral-900);
+  --color-text-muted: #3f4f6e;
+  --color-text-soft: #5a6785;
+  --color-border: var(--c-neutral-900);
+  --color-border-strong: var(--c-neutral-900);
+
+  --color-primary: var(--c-primary-600);
+  --color-primary-contrast: #ffffff;
+  --color-primary-soft: var(--c-primary-50);
+  --color-secondary: var(--c-secondary-600);
+  --color-secondary-contrast: #ffffff;
+  --color-accent: var(--c-accent-400);
+  --color-accent-contrast: var(--c-neutral-900);
+
+  /* ---- Typography ---- */
+  --font-sans: "Nunito", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Fredoka", "Nunito", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", ui-monospace, "SFMono-Regular", monospace;
+  --font-aksara: "Noto Sans Balinese", "Nunito", sans-serif;
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.25rem;
+  --fs-2xl: 1.5rem;
+  --fs-3xl: 1.875rem;
+  --fs-4xl: 2.5rem;
+  --fs-5xl: 3.25rem;
+  --fs-6xl: 4rem;
+
+  --lh-tight: 1.2;
+  --lh-snug: 1.35;
+  --lh-normal: 1.5;
+  --lh-relaxed: 1.6;
+
+  --fw-regular: 400;
+  --fw-medium: 600;
+  --fw-semibold: 700;
+  --fw-bold: 800;
+
+  /* ---- Spacing (8px base) ---- */
+  --sp-0: 0;
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.25rem;
+  --sp-6: 1.5rem;
+  --sp-8: 2rem;
+  --sp-10: 2.5rem;
+  --sp-12: 3rem;
+  --sp-16: 4rem;
+  --sp-20: 5rem;
+  --sp-24: 6rem;
+
+  /* ---- Radii ---- */
+  --r-sm: 0.5rem;
+  --r-md: 0.875rem;
+  --r-lg: 1.25rem;
+  --r-xl: 1.75rem;
+  --r-2xl: 2.25rem;
+  --r-full: 9999px;
+
+  /* ---- Shadows (hard cartoon offsets in ink) ---- */
+  --sh-sm: 2px 2px 0 var(--c-neutral-900);
+  --sh-md: 4px 4px 0 var(--c-neutral-900);
+  --sh-lg: 6px 6px 0 var(--c-neutral-900);
+  --sh-xl: 8px 8px 0 var(--c-neutral-900);
+
+  /* ---- Motion ---- */
+  --ease-out: cubic-bezier(0.34, 1.4, 0.64, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 150ms;
+  --dur-base: 250ms;
+  --dur-slow: 400ms;
+
+  /* ---- Layout ---- */
+  --container-max: 1200px;
+  --container-narrow: 760px;
+  --header-h: 4.5rem;
+
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: var(--fs-base);
+  line-height: var(--lh-normal);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  background-image: radial-gradient(circle, rgba(21, 101, 192, 0.12) 1.2px, transparent 1.6px);
+  background-size: 22px 22px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-synthesis: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  line-height: var(--lh-tight);
+  font-weight: var(--fw-semibold);
+  margin: 0 0 var(--sp-4);
+  color: var(--color-text);
+}
+
+h1 { font-size: var(--fs-5xl); }
+h2 { font-size: var(--fs-3xl); }
+h3 { font-size: var(--fs-2xl); }
+h4 { font-size: var(--fs-xl); }
+
+p { margin: 0 0 var(--sp-4); line-height: var(--lh-relaxed); }
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color var(--dur-fast) var(--ease-out);
+}
+a:hover { color: var(--c-primary-800); }
+
+img { max-width: 100%; display: block; }
+
+ul, ol { margin: 0 0 var(--sp-4); padding-left: 1.25rem; }
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+::selection {
+  background: var(--c-accent-200);
+  color: var(--c-neutral-900);
+}
+
+:focus-visible {
+  outline: 3px solid var(--c-secondary-400);
+  outline-offset: 2px;
+  border-radius: var(--r-sm);
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--sp-4);
+}
+@media (min-width: 768px) {
+  .container { padding-inline: var(--sp-8); }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0);
+  white-space: nowrap; border: 0;
+}
+
+/* Decorative Balinese wave divider */
+.bali-wave {
+  display: block;
+  width: 100%;
+  height: 40px;
+  color: var(--color-primary);
+}
