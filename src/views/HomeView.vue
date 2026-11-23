@@ -11,9 +11,9 @@ const featuredAksara = computed(() => store.getters["aksara/all"].slice(0, 4));
 const featuredStories = computed(() => store.getters["stories/all"].slice(0, 3));
 
 const levels = [
-  { code: "SD", title: "SD", desc: "Pengenalan bentuk & bunyi aksara", icon: "fa-solid fa-seedling" },
-  { code: "SMP", title: "SMP", desc: "Jenis aksara & latihan membaca", icon: "fa-solid fa-book-open" },
-  { code: "SMA/SMK", title: "SMA / SMK", desc: "Memperdalam & membaca cerita", icon: "fa-solid fa-graduation-cap" },
+  { code: "SD", title: "SD", desc: "Pengenalan bentuk & bunyi aksara", icon: "fa-solid fa-shapes" },
+  { code: "SMP", title: "SMP", desc: "Jenis aksara & latihan membaca", icon: "fa-solid fa-book-open-reader" },
+  { code: "SMA/SMK", title: "SMA / SMK", desc: "Memperdalam & membaca cerita", icon: "fa-solid fa-scroll" },
 ];
 
 const features = [
