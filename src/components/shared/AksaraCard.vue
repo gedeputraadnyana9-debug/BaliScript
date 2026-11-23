@@ -30,15 +30,22 @@ defineProps({
 .aksara-card { display: flex; flex-direction: column; height: 100%; padding: var(--sp-5); }
 
 .aksara-card__glyph {
-  font-size: clamp(3rem, 8vw, 4rem);
-  line-height: 1;
+  font-family: var(--font-aksara);
+  font-size: clamp(2.5rem, 8vw, 3.5rem);
+  line-height: 1.35;
   color: var(--color-primary);
   background: linear-gradient(140deg, var(--color-primary-soft), var(--c-primary-100));
   border-radius: var(--r-lg);
-  padding: 0.25rem 1rem 0.35rem;
-  display: inline-block;
+  padding: 1rem 1.25rem 3.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 10rem;
+  min-height: 12rem;
+  box-sizing: border-box;
   margin-bottom: var(--sp-3);
   align-self: flex-start;
+  overflow: visible;
 }
 
 .aksara-card__title { font-size: var(--fs-xl); margin: 0 0 var(--sp-1); }
