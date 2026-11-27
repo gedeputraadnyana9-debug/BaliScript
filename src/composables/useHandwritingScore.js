@@ -15,7 +15,8 @@ function glyphAlpha(character, width, height) {
   c.width = width;
   c.height = height;
   const g = c.getContext("2d");
-  const size = Math.round(Math.min(width, height) * 0.62);
+  const isStacked = character.includes("\u1B44") || character.length > 2;
+  const size = Math.round(Math.min(width, height) * (isStacked ? 0.38 : 0.52));
   g.font = `${size}px ${FONT_FAMILY}, sans-serif`;
   g.textAlign = "center";
   g.textBaseline = "middle";

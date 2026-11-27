@@ -11,9 +11,9 @@ const featuredAksara = computed(() => store.getters["aksara/all"].slice(0, 4));
 const featuredStories = computed(() => store.getters["stories/all"].slice(0, 3));
 
 const levels = [
-  { code: "SD", title: "SD", desc: "Pengenalan bentuk & bunyi aksara", icon: "🌿" },
-  { code: "SMP", title: "SMP", desc: "Jenis aksara & latihan membaca", icon: "📖" },
-  { code: "SMA/SMK", title: "SMA / SMK", desc: "Memperdalam & membaca cerita", icon: "🏛️" },
+  { code: "SD", title: "SD", desc: "Pengenalan bentuk & bunyi aksara", icon: "fa-solid fa-shapes" },
+  { code: "SMP", title: "SMP", desc: "Jenis aksara & latihan membaca", icon: "fa-solid fa-book-open-reader" },
+  { code: "SMA/SMK", title: "SMA / SMK", desc: "Memperdalam & membaca cerita", icon: "fa-solid fa-scroll" },
 ];
 
 const features = [
@@ -73,7 +73,9 @@ const features = [
       </div>
       <div class="levels">
         <div v-for="l in levels" :key="l.code" class="level-card" :class="`level-card--${l.code.toLowerCase().replace('/', '-')}`">
-          <div class="level-card__icon">{{ l.icon }}</div>
+          <div class="level-card__icon">
+            <i :class="l.icon" aria-hidden="true"></i>
+          </div>
           <div class="level-card__body">
             <h3>{{ l.title }}</h3>
             <p>{{ l.desc }}</p>
@@ -205,13 +207,13 @@ const features = [
 .levels { display: grid; grid-template-columns: 1fr; gap: var(--sp-4); }
 .level-card { display: flex; align-items: center; gap: var(--sp-5); padding: var(--sp-5) var(--sp-6); border-radius: var(--r-xl); border: 3px solid var(--color-ink); background: var(--color-surface); box-shadow: var(--sh-md); transition: transform var(--dur-base) var(--ease-out), box-shadow var(--dur-base) var(--ease-out); }
 .level-card:hover { transform: translate(-2px, -3px); box-shadow: var(--sh-lg); }
-.level-card__icon { flex: 0 0 auto; width: 64px; height: 64px; display: grid; place-items: center; font-size: 2rem; border: 3px solid var(--color-ink); border-radius: 50%; background: var(--c-accent-100); }
+.level-card__icon { flex: 0 0 auto; width: 64px; height: 64px; display: grid; place-items: center; font-size: 1.75rem; border: 3px solid var(--color-ink); border-radius: 50%; background: var(--c-accent-100); }
 .level-card__body { flex: 1; min-width: 0; }
 .level-card h3 { margin-bottom: var(--sp-1); }
 .level-card p { font-size: var(--fs-base); color: var(--color-text-muted); margin: 0; }
-.level-card--sd .level-card__icon { background: var(--c-success-100); }
-.level-card--smp .level-card__icon { background: var(--c-primary-100); }
-.level-card--sma-smk .level-card__icon { background: var(--c-secondary-100); }
+.level-card--sd .level-card__icon { background: var(--c-success-100); color: var(--c-success-700); }
+.level-card--smp .level-card__icon { background: var(--c-primary-100); color: var(--c-primary-700); }
+.level-card--sma-smk .level-card__icon { background: var(--c-secondary-100); color: var(--c-secondary-700); }
 .level-card--sd { border-left: 10px solid var(--c-success-500); }
 .level-card--smp { border-left: 10px solid var(--c-primary-500); }
 .level-card--sma-smk { border-left: 10px solid var(--c-secondary-500); }

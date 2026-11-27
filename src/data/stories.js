@@ -2,191 +2,147 @@
 
 export const stories = [
   {
-    id: 1,
-    slug: "kebo-iwa",
-    title: "Kebo Iwa",
-    category: "Legenda",
-    summary:
-      "Kisah raksasa baik hati dari Desa Balingkang yang menjadi pelindung rakyat Bali.",
-    description:
-      "Kebo Iwa adalah tokoh legenda Bali berwujud manusia raksasa dengan kekuatan luar biasa. " +
-      "Ia lahir di Desa Balingkang dan tumbuh dengan nafsu makan yang besar. " +
-      "Meski menakutkan rupanya, Kebo Iwa berhati mulia dan menjadi pelindung rakyat.",
-    imageUrl: "https://images.pexels.com/photos/36030321/pexels-photo-36030321.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    aksaraText:
-      "ᬓᭂᬩᭀ​ᬇᬯ​ᬲᬶᬲ᭄​ᬭᬓ᭄ᬲ​ᬕᬶᬬᬦ᭄ᬢᬶ​ᬲᬓᬸᬢ᭄​ᬲᬓᬶ​ᬫ᭄ᬬᭀᬂᬲ᭄​ᬓ᭄ᬭᬲ᭄ᬜ​ᬓᬭᬂ​ᬓᬶᬬᬦ᭄᭟",
-    highlights: [
-      "Kekuatan harus dibarengi dengan kebijaksanaan",
-      "Hati yang mulia lebih berharga daripada rupa",
-      "Jadilah pelindung bagi yang lemah",
+    "id": 1,
+    "slug": "kebo-iwa",
+    "title": "Kebo Iwa",
+    "category": "Legenda",
+    "summary": "Kisah ksatria perkasa berbadan raksasa dari Kerajaan Bedahulu yang tulus melindungi Pulau Bali hingga akhir hayatnya.",
+    "description": "Dahulu kala di Desa Balingkang, sepasang suami istri yang sudah lama mendambakan keturunan memohon kepada para dewa. Doa mereka dikabulkan dengan lahirnya seorang bayi laki-laki yang sehat. Namun anehnya, bayi tersebut tumbuh sangat pesat hingga berukuran raksasa dan memiliki nafsu makan yang luar biasa. Penduduk desa menjulukinya Kebo Iwa.\n\nMeski bertubuh besar dan menakutkan, Kebo Iwa memiliki budi pekerti yang luhur dan sangat menyayangi rakyat. Untuk membalas makanan yang disediakan warga desa, Kebo Iwa dengan sukarela membantu pekerjaan berat seperti menggali sumur raksasa, mengangkut batu-batu besar untuk membangun pura dan benteng pertahanan, serta membendung sungai demi mengairi sawah. Atas kesaktian dan ketulusannya, Raja Bedahulu, Sri Astasura Bumi Banten, mengangkat Kebo Iwa menjadi Mahapatih Kerajaan Bali.\n\nKeperkasaan Kebo Iwa terdengar hingga ke Kerajaan Majapahit. Mahapatih Gajah Mada menyadari bahwa Pulau Bali tidak akan pernah bisa ditaklukkan selama Kebo Iwa masih berdiri teguh menjaganya. Mengingat Kebo Iwa tak terkalahkan dalam pertempuran fisik, pihak Majapahit mengirim undangan persahabatan ke Jawa dengan dalih hendak menjodohkannya dengan putri bangsawan Majapahit.\n\nSetibanya di Jawa, Kebo Iwa diminta menggali sebuah sumur yang sangat dalam di desa terpencil. Tanpa rasa curiga dan demi kebaikan dua kerajaan, Kebo Iwa turun ke dalam sumur dan mulai menggali. Ketika ia berada di dasar sumur yang dalam, pasukan penyerang menimbun sumur tersebut dengan bongkahan batu dan kapur tohor. Walau sempat bangkit menembus timbunan batu, Kebo Iwa akhirnya memahami takdir penyatuan Nusantara dan memilih gugur secara ksatria dengan berpesan agar Pulau Bali senantiasa dijaga kedamaiannya.",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Beelden_v.l.n.r._Kebo_Iwa%2C_Ganesha_en_vermoedelijk_zijn_rat_in_Poera_Gaduh_te_Blahbatoe_bij_Gianjar%2C_KITLV_117186.tiff/lossy-page1-960px-Beelden_v.l.n.r._Kebo_Iwa%2C_Ganesha_en_vermoedelijk_zijn_rat_in_Poera_Gaduh_te_Blahbatoe_bij_Gianjar%2C_KITLV_117186.tiff.jpg",
+    "aksaraText": "ᬤᬳᬸᬮᬸ ᬓᬮ ᬤᬶ ᬤᬾᬲ ᬩᬮᬶᬂᬓᬂ᭞  ᬲᭂᬧᬲᬂ ᬲᬸᬳᬫᬶ ᬳᬶᬲ᭄ᬢ᭄ᬭᬶ ᬬᬂ ᬲᬸᬤᬄ ᬮᬫ ᬫᭂᬦ᭄ᬤᬫ᭄ᬩᬓᬦ᭄ ᬓᭂᬢᬸᬭᬸᬦᬦ᭄ ᬫᭂᬫᭀᬳᭀᬦ᭄ ᬓᭂᬧᬤ ᬧᬭ ᬤᬾᬯ᭟  ᬤᭀᬳ ᬫᭂᬭᬾᬓ ᬤᬶᬓᬩᬸᬮ᭄ᬓᬦ᭄ ᬤᬾᬗᬦ᭄ ᬮᬳᬶᬃᬜ ᬲᭂᬳᭀᬭᬂ ᬩᬬᬶ ᬮᬓᬶᬮᬓᬶ ᬬᬂ ᬲᭂᬳᬢ᭄᭟  ᬦᬫᬸᬦ᭄ ᬳᬦᬾᬄᬜ᭞  ᬩᬬᬶ ᬢᭂᬃᬲᬾᬩᬸᬢ᭄ ᬢᬸᬫ᭄ᬩᬸᬄ ᬲᬗᬢ᭄ ᬧᭂᬲᬢ᭄ ᬳᬶᬂᬕ ᬩᭂᬭᬸᬓᬸᬭᬦ᭄ ᬭᬓ᭄ᬲᬲ ᬤᬦ᭄ ᬫᭂᬫᬶᬮᬶᬓᬶ ᬦᬧ᭄ᬲᬸ ᬫᬓᬦ᭄ ᬬᬂ ᬮᬸᬳᬃ ᬩᬶᬳᬲ᭟  ᬧᭂᬦ᭄ᬤᬸᬤᬸᬓ᭄ ᬤᬾᬲ ᬫᭂᬦ᭄ᬚᬸᬮᬸᬓᬶᬜ ᬓᭂᬩᭀ ᬳᬶᬯ᭟ \n\nᬫᭂᬲ᭄ᬓᬶ ᬩᭂᬃᬢᬸᬩᬸᬄ ᬩᭂᬲᬃ ᬤᬦ᭄ ᬫᭂᬦᬓᬸᬢ᭄ᬓᬦ᭄᭞  ᬓᭂᬩᭀ ᬳᬶᬯ ᬫᭂᬫᬶᬮᬶᬓᬶ ᬩᬸᬤᬶ ᬧᬾᬓᬾᬃᬢᬶ ᬬᬂ ᬮᬸᬳᬸᬃ ᬤᬦ᭄ ᬲᬗᬢ᭄ ᬫᭂᬜᬬᬗᬶ ᬭᬓ᭄ᬬᬢ᭄᭟  ᬳᬸᬦ᭄ᬢᬸᬓ᭄ ᬫᭂᬫ᭄ᬩᬮᬲ᭄ ᬫᬓᬦᬦ᭄ ᬬᬂ ᬤᬶᬲᬾᬤᬶᬳᬓᬦ᭄ ᬯᬃᬕ ᬤᬾᬲ᭞  ᬓᭂᬩᭀ ᬳᬶᬯ ᬤᬾᬗᬦ᭄ ᬲᬸᬓᬭᬾᬮ ᬫᭂᬫ᭄ᬩᬦ᭄ᬢᬸ ᬧᬾᬓᬾᬃᬚᬳᬦ᭄ ᬩᭂᬭᬢ᭄ ᬲᭂᬧᬾᬃᬢᬶ ᬫᭂᬂᬕᬮᬶ ᬲᬸᬫᬸᬃ ᬭᬓ᭄ᬲᬲ᭞  ᬫᭂᬗᬂᬓᬸᬢ᭄ ᬩᬢᬸᬩᬢᬸ ᬩᭂᬲᬃ ᬳᬸᬦ᭄ᬢᬸᬓ᭄ ᬫᭂᬫ᭄ᬩᬗᬸᬦ᭄ ᬧᬸᬭ ᬤᬦ᭄ ᬩᬾᬦ᭄ᬢᬾᬂ ᬧᭂᬃᬢᬳᬦᬦ᭄᭞  ᬲᭂᬃᬢ ᬫᭂᬫ᭄ᬩᬾᬦ᭄ᬤᬸᬂ ᬲᬸᬗᬳᬶ ᬤᬾᬫᬶ ᬫᭂᬗᬳᬶᬭᬶ ᬲᬯᬄ᭟  ᬳᬢᬲ᭄ ᬓᭂᬲᬓ᭄ᬢᬶᬳᬦ᭄ ᬤᬦ᭄ ᬓᭂᬢᬸᬮᬸᬲᬦ᭄ᬜ᭞  ᬭᬚ ᬩᬾᬤᬳᬸᬮᬸ᭞  ᬲ᭄ᬭᬶ ᬳᬲ᭄ᬢᬲᬸᬭ ᬩᬸᬫᬶ ᬩᬦ᭄ᬢᬾᬦ᭄᭞  ᬫᭂᬗᬂᬓᬢ᭄ ᬓᭂᬩᭀ ᬳᬶᬯ ᬫᭂᬦ᭄ᬚᬤᬶ ᬫᬳᬧᬢᬶᬄ ᬓᭂᬭᬚᬳᬦ᭄ ᬩᬮᬶ᭟ \n\nᬓᭂᬧᬾᬃᬓᬲᬳᬦ᭄ ᬓᭂᬩᭀ ᬳᬶᬯ ᬢᭂᬃᬤᬾᬗᬃ ᬳᬶᬂᬕ ᬓᬾ ᬓᭂᬭᬚᬳᬦ᭄ ᬫᬚᬧᬳᬶᬢ᭄᭟  ᬫᬳᬧᬢᬶᬄ ᬕᬚᬄ ᬫᬤ ᬫᭂᬜᬤᬭᬶ ᬩᬄᬯ ᬧᬸᬮᬳᬸ ᬩᬮᬶ ᬢᬶᬤᬓ᭄ ᬳᬓᬦ᭄ ᬧᭂᬃᬦᬄ ᬩᬶᬲ ᬤᬶᬢᬓ᭄ᬮᬸᬓ᭄ᬓᬦ᭄ ᬲᭂᬮᬫ ᬓᭂᬩᭀ ᬳᬶᬯ ᬫᬲᬶᬄ ᬩᭂᬃᬤᬶᬭᬶ ᬢᬾᬕᬸᬄ ᬫᭂᬦ᭄ᬚᬕᬜ᭟  ᬫᭂᬗᬶᬗᬢ᭄ ᬓᭂᬩᭀ ᬳᬶᬯ ᬢᬓ᭄ ᬢᭂᬃᬓᬮᬄᬓᬦ᭄ ᬤᬮᬫ᭄ ᬧᭂᬃᬢᬾᬫ᭄ᬧᬸᬭᬦ᭄ ᬧᬶᬲᬶᬓ᭄᭞  ᬧᬶᬳᬓ᭄ ᬫᬚᬧᬳᬶᬢ᭄ ᬫᭂᬗᬶᬭᬶᬫ᭄ ᬳᬸᬦ᭄ᬤᬗᬦ᭄ ᬧᭂᬃᬲᬳᬩᬢᬦ᭄ ᬓᬾ ᬚᬯ ᬤᬾᬗᬦ᭄ ᬤᬮᬶᬄ ᬳᬾᬦ᭄ᬤᬓ᭄ ᬫᭂᬦ᭄ᬚᭀᬤᭀᬄᬓᬦ᭄ᬜ ᬤᬾᬗᬦ᭄ ᬧᬸᬢ᭄ᬭᬶ ᬩᬂᬲᬯᬦ᭄ ᬫᬚᬧᬳᬶᬢ᭄᭟ \n\nᬲᭂᬢᬶᬩᬜ ᬤᬶ ᬚᬯ᭞  ᬓᭂᬩᭀ ᬳᬶᬯ ᬤᬶᬫᬶᬦ᭄ᬢ ᬫᭂᬂᬕᬮᬶ ᬲᭂᬩᬸᬳᬄ ᬲᬸᬫᬸᬃ ᬬᬂ ᬲᬗᬢ᭄ ᬤᬮᬫ᭄ ᬤᬶ ᬤᬾᬲ ᬢᭂᬃᬧᬾᬦ᭄ᬘᬶᬮ᭄᭟  ᬢᬦ᭄ᬧ ᬭᬲ ᬘᬸᬭᬶᬕ ᬤᬦ᭄ ᬤᬾᬫᬶ ᬓᭂᬩᬳᬶᬓᬦ᭄ ᬤᬸᬳ ᬓᭂᬭᬚᬳᬦ᭄᭞  ᬓᭂᬩᭀ ᬳᬶᬯ ᬢᬸᬭᬸᬦ᭄ ᬓᬾ ᬤᬮᬫ᭄ ᬲᬸᬫᬸᬃ ᬤᬦ᭄ ᬫᬸᬮᬳᬶ ᬫᭂᬂᬕᬮᬶ᭟  ᬓᭂᬢᬶᬓ ᬳᬶᬳ ᬩᭂᬭᬤ ᬤᬶ ᬤᬲᬃ ᬲᬸᬫᬸᬃ ᬬᬂ ᬤᬮᬫ᭄᭞  ᬧᬲᬸᬓᬦ᭄ ᬧᭂᬜᬾᬭᬂ ᬫᭂᬦᬶᬫ᭄ᬩᬸᬦ᭄ ᬲᬸᬫᬸᬃ ᬢᭂᬃᬲᬾᬩᬸᬢ᭄ ᬤᬾᬗᬦ᭄ ᬩᭀᬂᬓᬳᬦ᭄ ᬩᬢᬸ ᬤᬦ᭄ ᬓᬧᬸᬃ ᬢᭀᬳᭀᬃ᭟  ᬯᬮᬳᬸ ᬲᭂᬫ᭄ᬧᬢ᭄ ᬩᬂᬓᬶᬢ᭄ ᬫᭂᬦᬾᬫ᭄ᬩᬸᬲ᭄ ᬢᬶᬫ᭄ᬩᬸᬦᬦ᭄ ᬩᬢᬸ᭞  ᬓᭂᬩᭀ ᬳᬶᬯ ᬳᬔᬶᬃᬜ ᬫᭂᬫᬳᬫᬶ ᬢᬓ᭄ᬤᬶᬃ ᬧᭂᬜᬢᬸᬳᬦ᭄ ᬦᬸᬲᬦ᭄ᬢᬭ ᬤᬦ᭄ ᬫᭂᬫᬶᬮᬶᬄ ᬕᬸᬕᬸᬃ ᬲᭂᬘᬭ ᬓ᭄ᬲᬢ᭄ᬭᬶᬳ ᬤᬾᬗᬦ᭄ ᬩᭂᬃᬧᬾᬲᬦ᭄ ᬳᬕᬃ ᬧᬸᬮᬳᬸ ᬩᬮᬶ ᬲᭂᬦᬦ᭄ᬢᬶᬳᬲ ᬤᬶᬚᬕ ᬓᭂᬤᬫᬳᬶᬳᬦ᭄ᬜ᭟ ",
+    "highlights": [
+      "Kekuatan fisik harus dibarengi keluhuran budi",
+      "Ketulusan berkorban demi kedamaian rakyat",
+      "Jadilah pelindung bagi yang lemah"
     ],
-    level: "SD",
+    "level": "SD"
   },
   {
-    id: 2,
-    slug: "tirta-empul",
-    title: "Tirta Empul",
-    category: "Mitos",
-    summary:
-      "Asal-usul mata air suci Tirta Empul yang diciptakan Dewa Indra.",
-    description:
-      "Tirta Empul adalah sumber mata air suci di Tampaksiring yang menurut mitos " +
-      "diciptakan oleh Dewa Indra untuk menghidupkan kembali pasukannya yang terkena racun " +
-      "Mayadanawa. Airnya dipercaya menyucikan jiwa dan raga.",
-    imageUrl: "https://images.pexels.com/photos/5992583/pexels-photo-5992583.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    aksaraText:
-      "ᬢᬶᬃ᭄ᬢ​ᬏᬫ᭄ᬧᬸᬮ᭄​ᬲ᭄ᬭᬂᬕᬶ​ᬤᭂᬯ​ᬇᬦ᭄ᬤ᭄ᬭ​ᬲᬓᬸᬢ᭄​ᬭᬗ​ᬓ᭄ᬬᬵᬂ​ᬳᬦ᭄ᬢᬓ᭄​ᬭᬧᬓ᭄​᭟",
-    highlights: [
-      "Air suci melambangkan kesucian hati",
-      "Kebaikan Dewa Indra menyelamatkan banyak nyawa",
-      "Pelestarian tempat suci adalah wujud bhakti",
+    "id": 2,
+    "slug": "tirta-empul",
+    "title": "Tirta Empul",
+    "category": "Mitos",
+    "summary": "Asal-usul mata air suci Tampaksiring yang dipancarkan Dewa Indra untuk menawar racun Raja Mayadanawa.",
+    "description": "Alkisah di tanah Bali, bertahtalah seorang raja sakti bernama Mayadanawa. Karena memiliki kesaktian luar biasa yang mampu mengubah wujudnya menjadi apa saja, Mayadanawa menjadi sangat sombong dan takabur. Ia melarang seluruh rakyat Bali menyembah para dewa dan merusak tempat-tempat persembahyangan, hingga negeri dilanda kekeringan dan kemalangan.\n\nMelihat penderitaan rakyat, Bhatara Indra memimpin bala tentara kahyangan turun ke bumi untuk menegakkan kebenaran (dharma) dan menyadarkan Mayadanawa. Terjadilah pertempuran dahsyat di lembah Tampaksiring. Pasukan Mayadanawa kian terdesak dan sang raja terpaksa melarikan diri ke dalam hutan lebat.\n\nDalam pelariannya di tengah malam, Mayadanawa yang licik menyusup ke dekat perkemahan pasukan Dewa Indra. Ia sengaja berjalan dengan memiringkan telapak kakinya agar jejaknya tidak dikenali (yang kelak menjadi asal-usul nama daerah Tampaksiring). Mayadanawa lalu membuat mata air beracun yang dinamakan Yeh Cetik tepat di samping aliran sungai tempat prajurit kahyangan beristirahat.\n\nKeesokan paginya, prajurit Dewa Indra meminum air dari sumber tersebut tanpa rasa curiga. Seketika itu pula ribuan prajurit jatuh lemas, sakit parah, dan banyak yang tewas terkena racun mematikan. Mengetahui muslihat keji Mayadanawa, Dewa Indra segera menancapkan tombak saktinya ke tanah. Dari bekas tusukan tombak itu, memancarlah mata air suci yang bergolak deras (empul) membawa air kehidupan (Tirta Amerta). Begitu dipercikkan dan diminumkan kepada prajurit, seluruh pasukan kahyangan sembuh seketika dan bangkit kembali. Hingga kini, mata air suci tersebut menjadi Pura Tirta Empul, tempat umat menyucikan diri lahir dan batin melalui tradisi melukat.",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Pura_Tirta_Empul%2C_Ubud%2C_Bali%2C_Indonesia.JPG/960px-Pura_Tirta_Empul%2C_Ubud%2C_Bali%2C_Indonesia.JPG",
+    "aksaraText": "ᬳᬮ᭄ᬓᬶᬲᬄ ᬤᬶ ᬢᬦᬄ ᬩᬮᬶ᭞  ᬩᭂᬃᬢᬄᬢᬮᬄ ᬲᭂᬳᭀᬭᬂ ᬭᬚ ᬲᬓ᭄ᬢᬶ ᬩᭂᬃᬦᬫ ᬫᬬᬤᬦᬯ᭟  ᬓᬭᬾᬦ ᬫᭂᬫᬶᬮᬶᬓᬶ ᬓᭂᬲᬓ᭄ᬢᬶᬳᬦ᭄ ᬮᬸᬳᬃ ᬩᬶᬳᬲ ᬬᬂ ᬫᬫ᭄ᬧᬸ ᬫᭂᬗᬸᬩᬄ ᬯᬸᬚᬸᬤ᭄ᬜ ᬫᭂᬦ᭄ᬚᬤᬶ ᬳᬧ ᬲᬚ᭞  ᬫᬬᬤᬦᬯ ᬫᭂᬦ᭄ᬚᬤᬶ ᬲᬗᬢ᭄ ᬲᭀᬫ᭄ᬩᭀᬂ ᬤᬦ᭄ ᬢᬓᬩᬸᬃ᭟  ᬳᬶᬳ ᬫᭂᬮᬭᬂ ᬲᭂᬮᬸᬭᬸᬄ ᬭᬓ᭄ᬬᬢ᭄ ᬩᬮᬶ ᬫᭂᬜᬾᬫ᭄ᬩᬄ ᬧᬭ ᬤᬾᬯ ᬤᬦ᭄ ᬫᭂᬭᬸᬲᬓ᭄ ᬢᬾᬫ᭄ᬧᬢ᭄ᬢᬾᬫ᭄ᬧᬢ᭄ ᬧᭂᬃᬲᬾᬫ᭄ᬩᬄᬬᬗᬦ᭄᭞  ᬳᬶᬂᬕ ᬦᭂᬕᭂᬭᬶ ᬤᬶᬮᬦ᭄ᬤ ᬓᭂᬓᬾᬭᬶᬗᬦ᭄ ᬤᬦ᭄ ᬓᭂᬫᬮᬗᬦ᭄᭟ \n\nᬫᭂᬮᬶᬳᬢ᭄ ᬧᭂᬦ᭄ᬤᬾᬭᬶᬢᬳᬦ᭄ ᬭᬓ᭄ᬬᬢ᭄᭞  ᬩ᭄ᬳᬢᬭ ᬳᬶᬦ᭄ᬤ᭄ᬭ ᬫᭂᬫᬶᬫ᭄ᬧᬶᬦ᭄ ᬩᬮ ᬢᬾᬦ᭄ᬢᬭ ᬓᬄᬬᬗᬦ᭄ ᬢᬸᬭᬸᬦ᭄ ᬓᬾ ᬩᬸᬫᬶ ᬳᬸᬦ᭄ᬢᬸᬓ᭄ ᬫᭂᬦᬾᬕᬓ᭄ᬓᬦ᭄ ᬓᭂᬩᭂᬦᬭᬦ᭄ ᬤ᭄ᬳᬃᬫ ᬤᬦ᭄ ᬫᭂᬜᬤᬃᬓᬦ᭄ ᬫᬬᬤᬦᬯ᭟  ᬢᭂᬃᬚᬤᬶᬮᬄ ᬧᭂᬃᬢᬾᬫ᭄ᬧᬸᬭᬦ᭄ ᬤᬄᬰᬢ᭄ ᬤᬶ ᬮᬾᬫ᭄ᬩᬄ ᬢᬫ᭄ᬧᬓ᭄ᬲᬶᬭᬶᬂ᭟  ᬧᬲᬸᬓᬦ᭄ ᬫᬬᬤᬦᬯ ᬓᬶᬳᬦ᭄ ᬢᭂᬃᬤᬾᬲᬓ᭄ ᬤᬦ᭄ ᬲᬂ ᬭᬚ ᬢᭂᬃᬧᬓ᭄ᬲ ᬫᭂᬮᬭᬶᬓᬦ᭄ ᬤᬶᬭᬶ ᬓᬾ ᬤᬮᬫ᭄ ᬳᬸᬢᬦ᭄ ᬮᭂᬩᬢ᭄᭟ \n\nᬤᬮᬫ᭄ ᬧᬾᬮᬭᬶᬳᬦ᭄ᬜ ᬤᬶ ᬢᭂᬗᬄ ᬫᬮᬫ᭄᭞  ᬫᬬᬤᬦᬯ ᬬᬂ ᬮᬶᬘᬶᬓ᭄ ᬫᭂᬜᬸᬲᬸᬧ᭄ ᬓᬾ ᬤᬾᬓᬢ᭄ ᬧᭂᬃᬓᬾᬫᬳᬦ᭄ ᬧᬲᬸᬓᬦ᭄ ᬤᬾᬯ ᬳᬶᬦ᭄ᬤ᭄ᬭ᭟  ᬳᬶᬳ ᬲᭂᬗᬚ ᬩᭂᬃᬚᬮᬦ᭄ ᬤᬾᬗᬦ᭄ ᬫᭂᬫᬶᬭᬶᬂᬓᬦ᭄ ᬢᬾᬮᬧᬓ᭄ ᬓᬓᬶᬜ ᬳᬕᬃ ᬚᬾᬚᬓ᭄ᬜ ᬢᬶᬤᬓ᭄ ᬤᬶᬓᬾᬦᬮᬶ ᬬᬂ ᬓᭂᬮᬓ᭄ ᬫᭂᬦ᭄ᬚᬤᬶ ᬳᬲᬮ᭄ᬳᬸᬲᬸᬮ᭄ ᬦᬫ ᬤᬳᬾᬭᬄ ᬢᬫ᭄ᬧᬓ᭄ᬲᬶᬭᬶᬂ᭟  ᬫᬬᬤᬦᬯ ᬮᬮᬸ ᬫᭂᬫ᭄ᬩᬸᬳᬢ᭄ ᬫᬢ ᬳᬳᬶᬃ ᬩᭂᬭᬘᬸᬦ᭄ ᬬᬂ ᬤᬶᬦᬫᬓᬦ᭄ ᬬᬾᬄ ᬘᬾᬢᬶᬓ᭄ ᬢᬾᬧᬢ᭄ ᬤᬶ ᬲᬫ᭄ᬧᬶᬂ ᬳᬮᬶᬭᬦ᭄ ᬲᬸᬗᬳᬶ ᬢᬾᬫ᭄ᬧᬢ᭄ ᬧ᭄ᬭᬚᬸᬭᬶᬢ᭄ ᬓᬄᬬᬗᬦ᭄ ᬩᭂᬭᬶᬲ᭄ᬢᬶᬭᬳᬢ᭄᭟ \n\nᬓᭂᬳᬾᬲᭀᬓᬦ᭄ ᬧᬕᬶᬜ᭞  ᬧ᭄ᬭᬚᬸᬭᬶᬢ᭄ ᬤᬾᬯ ᬳᬶᬦ᭄ᬤ᭄ᬭ ᬫᭂᬫᬶᬦᬸᬫ᭄ ᬳᬳᬶᬃ ᬤᬭᬶ ᬲᬸᬫ᭄ᬩᬾᬃ ᬢᭂᬃᬲᬾᬩᬸᬢ᭄ ᬢᬦ᭄ᬧ ᬭᬲ ᬘᬸᬭᬶᬕ᭟  ᬲᭂᬓᬾᬢᬶᬓ ᬳᬶᬢᬸ ᬧᬸᬮ ᬭᬶᬩᬸᬳᬦ᭄ ᬧ᭄ᬭᬚᬸᬭᬶᬢ᭄ ᬚᬢᬸᬄ ᬮᭂᬫᬲ᭄᭞  ᬲᬓᬶᬢ᭄ ᬧᬭᬄ᭞  ᬤᬦ᭄ ᬩᬜᬓ᭄ ᬬᬂ ᬢᬾᬯᬲ᭄ ᬢᭂᬃᬓᬾᬦ ᬭᬘᬸᬦ᭄ ᬫᭂᬫᬢᬶᬓᬦ᭄᭟  ᬫᭂᬗᬾᬢᬳᬸᬳᬶ ᬫᬸᬲ᭄ᬮᬶᬳᬢ᭄ ᬓᭂᬚᬶ ᬫᬬᬤᬦᬯ᭞  ᬤᬾᬯ ᬳᬶᬦ᭄ᬤ᭄ᬭ ᬲᭂᬕᬾᬭ ᬫᭂᬦᬦ᭄ᬘᬧ᭄ᬓᬦ᭄ ᬢᭀᬫ᭄ᬩᬓ᭄ ᬲᬓ᭄ᬢᬶᬜ ᬓᬾ ᬢᬦᬄ᭟  ᬤᬭᬶ ᬩᬾᬓᬲ᭄ ᬢᬸᬲᬸᬓᬦ᭄ ᬢᭀᬫ᭄ᬩᬓ᭄ ᬳᬶᬢᬸ᭞  ᬫᭂᬫᬦ᭄ᬘᬃᬮᬄ ᬫᬢ ᬳᬳᬶᬃ ᬲᬸᬘᬶ ᬬᬂ ᬩᭂᬃᬕᭀᬮᬓ᭄ ᬤᬾᬭᬲ᭄ ᬳᬾᬫ᭄ᬧᬸᬮ᭄ ᬫᭂᬫ᭄ᬩᬯ ᬳᬳᬶᬃ ᬓᭂᬳᬶᬤᬸᬧᬦ᭄ ᬢᬶᬃᬢ ᬳᬫᬾᬃᬢ᭟  ᬩᬾᬕᬶᬢᬸ ᬤᬶᬧᬾᬃᬘᬶᬓ᭄ᬓᬦ᭄ ᬤᬦ᭄ ᬤᬶᬫᬶᬦᬸᬫ᭄ᬓᬦ᭄ ᬓᭂᬧᬤ ᬧ᭄ᬭᬚᬸᬭᬶᬢ᭄᭞  ᬲᭂᬮᬸᬭᬸᬄ ᬧᬲᬸᬓᬦ᭄ ᬓᬄᬬᬗᬦ᭄ ᬲᭂᬫ᭄ᬩᬸᬄ ᬲᭂᬓᬾᬢᬶᬓ ᬤᬦ᭄ ᬩᬂᬓᬶᬢ᭄ ᬓᭂᬫ᭄ᬩᬮᬶ᭟  ᬳᬶᬂᬕ ᬓᬶᬦᬶ᭞  ᬫᬢ ᬳᬳᬶᬃ ᬲᬸᬘᬶ ᬢᭂᬃᬲᬾᬩᬸᬢ᭄ ᬫᭂᬦ᭄ᬚᬤᬶ ᬧᬸᬭ ᬢᬶᬃᬢ ᬳᬾᬫ᭄ᬧᬸᬮ᭄᭞  ᬢᬾᬫ᭄ᬧᬢ᭄ ᬳᬸᬫᬢ᭄ ᬫᭂᬜᬸᬘᬶᬓᬦ᭄ ᬤᬶᬭᬶ ᬮᬳᬶᬃ ᬤᬦ᭄ ᬩᬢᬶᬦ᭄ ᬫᭂᬮᬮᬸᬳᬶ ᬢ᭄ᬭᬤᬶᬲᬶ ᬫᭂᬮᬸᬓᬢ᭄᭟ ",
+    "highlights": [
+      "Kesucian dan kebenaran selalu mengalahkan kelicikan",
+      "Air suci sebagai sarana penyucian jiwa dan raga",
+      "Pelestarian mata air suci adalah wujud rasa syukur"
     ],
-    level: "SMP",
+    "level": "SMP"
   },
   {
-    id: 3,
-    slug: "jaya-prana",
-    title: "Jaya Prana",
-    category: "Romansa Tragis",
-    summary:
-      "Kisah cinta Jaya Prana dan Ni Layonsari yang berakhir tragis di hutan Balian.",
-    description:
-      "Jaya Prana adalah pemuda tampan yang dicintai Ni Layonsari. " +
-      "Namun penguasa yang juga menginginkan Layonsari menyuruh Jaya Prana pergi ke hutan " +
-      "dan membunuhnya. Kisah ini menjadi simbol cinta sejati yang takkan lekang oleh waktu.",
-    imageUrl: "https://images.pexels.com/photos/35129865/pexels-photo-35129865.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    aksaraText:
-      "ᬚᬬ​ᬧ᭄ᬭᬡ​ᬓᬭᬂ​ᬦᬶ​ᬮᬬᭀᬦ᭄ᬲᬭᬶ​ᬓᬸᬯᬦ᭄ᬦᬦ᭄ᬬ​ᬢᬭ᭄ᬓ​ᬤᬭᬾᬯ​ᬓᬵᬂ​ᬓᬶᬬᬓᭂᬃ᭟",
-    highlights: [
-      "Cinta sejati takkan tergantikan oleh waktu",
-      "Kesetiaan adalah bentuk cinta tertinggi",
-      "Kisah ini menjadi warisan sastra Bali",
+    "id": 3,
+    "slug": "jaya-prana",
+    "title": "Jaya Prana",
+    "category": "Romansa Tragis",
+    "summary": "Kisah cinta sejati yang penuh kesetiaan dan ketulusan abadi antara I Nyoman Jayaprana dan Ni Layonsari.",
+    "description": "Di Kerajaan Kalianget, Buleleng, hiduplah seorang pemuda yatim piatu bernama I Nyoman Jayaprana. Sejak kecil ia diasuh di istana oleh sang Raja karena budi bahasanya yang halus, parasnya yang rupawan, serta baktinya yang tulus kepada kerajaan. Menginjak usia dewasa, Jayaprana jatuh hati pada Ni Layonsari, seorang gadis desa berparas jelita dan berbudi luhur putri Jero Bendesa Banjar Sekar.\n\nMelihat ketulusan keduanya, sang Raja merestui dan menggelar pesta pernikahan agung untuk mereka di istana. Namun, malapetaka bermula saat sang Raja melihat langsung kecantikan paras Layonsari pada hari perjamuan. Terpesona oleh kecantikan Layonsari, rasa iri dan nafsu menguasai hati sang Raja. Ia menyusun rencana licik untuk melenyapkan Jayaprana agar bisa memperistri Layonsari.\n\nRaja lantas memerintahkan Patih Saunggaling membawa Jayaprana ke pesisir Teluk Terima dengan dalih menyelidiki perompak yang meresahkan. Di tengah lebatnya hutan barat, Patih Saunggaling dengan berat hati memperlihatkan surat perintah rahasia raja yang memerintahkan pembunuhan Jayaprana. Patih Saunggaling menangis karena tak tega membunuh pemuda yang tak berdosa itu.\n\nNamun di luar dugaan, Jayaprana justru tersenyum ikhlas. Sebagai tanda baktinya yang tak bersyarat kepada raja, ia merelakan dadanya ditikam oleh keris. Ketika darahnya mengalir, semerbak harum mewangi tercium di seluruh hutan Teluk Terima, membuktikan ketulusan dan kesucian jiwanya.\n\nKabar duka itu akhirnya sampai ke telinga Layonsari di istana. Ketika sang Raja melamarnya dengan janji kemewahan tahta, Layonsari menolak dengan tegas. Baginya, kesetiaan pada cinta sejati tak dapat dibeli dengan mahkota. Dengan hati yang mantap menyusul sang suami, Layonsari menghunus keris peninggalan Jayaprana ke dadanya sendiri. Kisah kesetiaan agung ini terus dikenang rakyat Bali dan makam keduanya di Teluk Terima dikeramatkan hingga kini.",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/017_Jayaprana_and_Layonsari_by_Ida_Bagus_Rai%2C_Neka_Art_Museum%2C_Ubud%2C_Bali%2C_photograph_by_Anandajoti_Bhikkhu.jpg/960px-017_Jayaprana_and_Layonsari_by_Ida_Bagus_Rai%2C_Neka_Art_Museum%2C_Ubud%2C_Bali%2C_photograph_by_Anandajoti_Bhikkhu.jpg",
+    "aksaraText": "ᬤᬶ ᬓᭂᬭᬚᬳᬦ᭄ ᬓᬮᬶᬳᬗᬾᬢ᭄᭞  ᬩᬸᬮᬾᬮᬾᬂ᭞  ᬳᬶᬤᬸᬧ᭄ᬮᬄ ᬲᭂᬳᭀᬭᬂ ᬧᭂᬫᬸᬤ ᬬᬢᬶᬫ᭄ ᬧᬶᬳᬢᬸ ᬩᭂᬃᬦᬫ ᬳᬶ ᬜᭀᬫᬦ᭄ ᬚᬬᬧ᭄ᬭᬦ᭟  ᬲᭂᬚᬓ᭄ ᬓᭂᬘᬶᬮ᭄ ᬳᬶᬳ ᬤᬶᬳᬲᬸᬄ ᬤᬶ ᬳᬶᬲ᭄ᬢᬦ ᬳᭀᬮᬾᬄ ᬲᬂ ᬭᬚ ᬓᬭᬾᬦ ᬩᬸᬤᬶ ᬩᬳᬲᬜ ᬬᬂ ᬳᬮᬸᬲ᭄᭞  ᬧᬭᬲ᭄ᬜ ᬬᬂ ᬭᬸᬧᬯᬦ᭄᭞  ᬲᭂᬃᬢ ᬩᬓ᭄ᬢᬶᬜ ᬬᬂ ᬢᬸᬮᬸᬲ᭄ ᬓᭂᬧᬤ ᬓᭂᬭᬚᬳᬦ᭄᭟  ᬫᭂᬗᬶᬦ᭄ᬚᬓ᭄ ᬳᬸᬲᬶᬳ ᬤᬾᬯᬲ᭞  ᬚᬬᬧ᭄ᬭᬦ ᬚᬢᬸᬄ ᬳᬢᬶ ᬧᬤ ᬦᬶ ᬮᬬᭀᬦ᭄ᬲᬭᬶ᭞  ᬲᭂᬳᭀᬭᬂ ᬕᬤᬶᬲ᭄ ᬤᬾᬲ ᬩᭂᬃᬧᬭᬲ᭄ ᬚᬾᬮᬶᬢ ᬤᬦ᭄ ᬩᭂᬃᬩᬸᬤᬶ ᬮᬸᬳᬸᬃ ᬧᬸᬢ᭄ᬭᬶ ᬚᬾᬭᭀ ᬩᬾᬦ᭄ᬤᬾᬲ ᬩᬦ᭄ᬚᬃ ᬲᭂᬓᬃ᭟ \n\nᬫᭂᬮᬶᬳᬢ᭄ ᬓᭂᬢᬸᬮᬸᬲᬦ᭄ ᬓᭂᬤᬸᬳᬜ᭞  ᬲᬂ ᬭᬚ ᬫᭂᬭᬾᬲ᭄ᬢᬸᬳᬶ ᬤᬦ᭄ ᬫᭂᬂᬕᬾᬮᬃ ᬧᬾᬲ᭄ᬢ ᬧᭂᬃᬦᬶᬓᬳᬦ᭄ ᬳᬕᬸᬂ ᬳᬸᬦ᭄ᬢᬸᬓ᭄ ᬫᭂᬭᬾᬓ ᬤᬶ ᬳᬶᬲ᭄ᬢᬦ᭟  ᬦᬫᬸᬦ᭄᭞  ᬫᬮᬧᬾᬢᬓ ᬩᭂᬃᬫᬸᬮ ᬲᬳᬢ᭄ ᬲᬂ ᬭᬚ ᬫᭂᬮᬶᬳᬢ᭄ ᬮᬂᬲᬸᬂ ᬓᭂᬘᬦ᭄ᬢᬶᬓᬦ᭄ ᬧᬭᬲ᭄ ᬮᬬᭀᬦ᭄ᬲᬭᬶ ᬧᬤ ᬳᬭᬶ ᬧᭂᬃᬚᬫᬸᬳᬦ᭄᭟  ᬢᭂᬃᬧᬾᬲᭀᬦ ᬳᭀᬮᬾᬄ ᬓᭂᬘᬦ᭄ᬢᬶᬓᬦ᭄ ᬮᬬᭀᬦ᭄ᬲᬭᬶ᭞  ᬭᬲ ᬳᬶᬭᬶ ᬤᬦ᭄ ᬦᬧ᭄ᬲᬸ ᬫᭂᬗᬸᬳᬲᬳᬶ ᬳᬢᬶ ᬲᬂ ᬭᬚ᭟  ᬳᬶᬳ ᬫᭂᬜᬸᬲᬸᬦ᭄ ᬭᬾᬦ᭄ᬘᬦ ᬮᬶᬘᬶᬓ᭄ ᬳᬸᬦ᭄ᬢᬸᬓ᭄ ᬫᭂᬮᬾᬜᬧ᭄ᬓᬦ᭄ ᬚᬬᬧ᭄ᬭᬦ ᬳᬕᬃ ᬩᬶᬲ ᬫᭂᬫ᭄ᬧᬾᬭᬶᬲ᭄ᬢ᭄ᬭᬶ ᬮᬬᭀᬦ᭄ᬲᬭᬶ᭟ \n\nᬭᬚ ᬮᬦ᭄ᬢᬲ᭄ ᬫᭂᬫᬾᬭᬶᬦ᭄ᬢᬄᬓᬦ᭄ ᬧᬢᬶᬄ ᬲᬳᬸᬂᬕᬮᬶᬂ ᬫᭂᬫ᭄ᬩᬯ ᬚᬬᬧ᭄ᬭᬦ ᬓᬾ ᬧᬾᬲᬶᬲᬶᬃ ᬢᬾᬮᬸᬓ᭄ ᬢᭂᬭᬶᬫ ᬤᬾᬗᬦ᭄ ᬤᬮᬶᬄ ᬫᭂᬜᬾᬮᬶᬤᬶᬓᬶ ᬧᭂᬭᭀᬫ᭄ᬧᬓ᭄ ᬬᬂ ᬫᭂᬭᬾᬲᬄᬓᬦ᭄᭟  ᬤᬶ ᬢᭂᬗᬄ ᬮᭂᬩᬢ᭄ᬜ ᬳᬸᬢᬦ᭄ ᬩᬭᬢ᭄᭞  ᬧᬢᬶᬄ ᬲᬳᬸᬂᬕᬮᬶᬂ ᬤᬾᬗᬦ᭄ ᬩᭂᬭᬢ᭄ ᬳᬢᬶ ᬫᭂᬫ᭄ᬧᬾᬃᬮᬶᬳᬢ᭄ᬓᬦ᭄ ᬲᬸᬭᬢ᭄ ᬧᭂᬭᬶᬦ᭄ᬢᬄ ᬭᬳᬲᬶᬳ ᬭᬚ ᬬᬂ ᬫᭂᬫᬾᬭᬶᬦ᭄ᬢᬄᬓᬦ᭄ ᬧᭂᬫ᭄ᬩᬸᬦᬸᬳᬦ᭄ ᬚᬬᬧ᭄ᬭᬦ᭟  ᬧᬢᬶᬄ ᬲᬳᬸᬂᬕᬮᬶᬂ ᬫᭂᬦᬗᬶᬲ᭄ ᬓᬭᬾᬦ ᬢᬓ᭄ ᬢᬾᬕ ᬫᭂᬫ᭄ᬩᬸᬦᬸᬄ ᬧᭂᬫᬸᬤ ᬬᬂ ᬢᬓ᭄ ᬩᭂᬃᬤᭀᬲ ᬳᬶᬢᬸ᭟ \n\nᬦᬫᬸᬦ᭄ ᬤᬶ ᬮᬸᬳᬃ ᬤᬸᬕᬳᬦ᭄᭞  ᬚᬬᬧ᭄ᬭᬦ ᬚᬸᬲ᭄ᬢ᭄ᬭᬸ ᬢᭂᬃᬲᬾᬜᬸᬫ᭄ ᬳᬶᬔ᭄ᬮᬲ᭄᭟  ᬲᭂᬩᬕᬳᬶ ᬢᬦ᭄ᬤ ᬩᬓ᭄ᬢᬶᬜ ᬬᬂ ᬢᬓ᭄ ᬩᭂᬃᬰᬭᬢ᭄ ᬓᭂᬧᬤ ᬭᬚ᭞  ᬳᬶᬳ ᬫᭂᬭᬾᬮᬓᬦ᭄ ᬤᬤᬜ ᬤᬶᬢᬶᬓᬫ᭄ ᬳᭀᬮᬾᬄ ᬓᭂᬭᬶᬲ᭄᭟  ᬓᭂᬢᬶᬓ ᬤᬭᬄᬜ ᬫᭂᬗᬮᬶᬃ᭞  ᬲᭂᬫᬾᬃᬩᬓ᭄ ᬳᬭᬸᬫ᭄ ᬫᭂᬯᬗᬶ ᬢᭂᬃᬘᬶᬳᬸᬫ᭄ ᬤᬶ ᬲᭂᬮᬸᬭᬸᬄ ᬳᬸᬢᬦ᭄ ᬢᬾᬮᬸᬓ᭄ ᬢᭂᬭᬶᬫ᭞  ᬫᭂᬫ᭄ᬩᬸᬓ᭄ᬢᬶᬓᬦ᭄ ᬓᭂᬢᬸᬮᬸᬲᬦ᭄ ᬤᬦ᭄ ᬓᭂᬲᬸᬘᬶᬳᬦ᭄ ᬚᬶᬯᬜ᭟ \n\nᬓᬩᬃ ᬤᬸᬓ ᬳᬶᬢᬸ ᬳᬔᬶᬃᬜ ᬲᬫ᭄ᬧᬳᬶ ᬓᬾ ᬢᬾᬮᬶᬗ ᬮᬬᭀᬦ᭄ᬲᬭᬶ ᬤᬶ ᬳᬶᬲ᭄ᬢᬦ᭟  ᬓᭂᬢᬶᬓ ᬲᬂ ᬭᬚ ᬫᭂᬮᬫᬃᬜ ᬤᬾᬗᬦ᭄ ᬚᬦ᭄ᬚᬶ ᬓᭂᬫᬾᬯᬳᬦ᭄ ᬢᬄᬢ᭞  ᬮᬬᭀᬦ᭄ᬲᬭᬶ ᬫᭂᬦᭀᬮᬓ᭄ ᬤᬾᬗᬦ᭄ ᬢᬾᬕᬲ᭄᭟  ᬩᬕᬶᬜ᭞  ᬓᭂᬲᬾᬢᬶᬳᬳᬦ᭄ ᬧᬤ ᬘᬶᬦ᭄ᬢ ᬲᭂᬚᬢᬶ ᬢᬓ᭄ ᬤᬧᬢ᭄ ᬤᬶᬩᬾᬮᬶ ᬤᬾᬗᬦ᭄ ᬫᬄᬓᭀᬢ᭟  ᬤᬾᬗᬦ᭄ ᬳᬢᬶ ᬬᬂ ᬫᬦ᭄ᬢᬧ᭄ ᬫᭂᬜᬸᬲᬸᬮ᭄ ᬲᬂ ᬲᬸᬳᬫᬶ᭞  ᬮᬬᭀᬦ᭄ᬲᬭᬶ ᬫᭂᬂᬳᬸᬦᬸᬲ᭄ ᬓᭂᬭᬶᬲ᭄ ᬧᭂᬦᬶᬂᬕᬮᬦ᭄ ᬚᬬᬧ᭄ᬭᬦ ᬓᬾ ᬤᬤᬜ ᬲᭂᬦ᭄ᬤᬶᬭᬶ᭟  ᬓᬶᬲᬄ ᬓᭂᬲᬾᬢᬶᬳᬳᬦ᭄ ᬳᬕᬸᬂ ᬳᬶᬦᬶ ᬢᭂᬭᬸᬲ᭄ ᬤᬶᬓᬾᬦᬂ ᬭᬓ᭄ᬬᬢ᭄ ᬩᬮᬶ ᬤᬦ᭄ ᬫᬓᬫ᭄ ᬓᭂᬤᬸᬳᬜ ᬤᬶ ᬢᬾᬮᬸᬓ᭄ ᬢᭂᬭᬶᬫ ᬤᬶᬓᬾᬭᬫᬢ᭄ᬓᬦ᭄ ᬳᬶᬂᬕ ᬓᬶᬦᬶ᭟ ",
+    "highlights": [
+      "Kesetiaan cinta sejati yang tak luntur oleh tahta",
+      "Ketulusan budi pekerti abadi melintasi zaman",
+      "Kisah legendaris lambang kesetiaan masyarakat Bali"
     ],
-    level: "SMA/SMK",
+    "level": "SMA/SMK"
   },
   {
-    id: 4,
-    slug: "timun-mas-bali",
-    title: "Timun Mas Bali",
-    category: "Dongeng",
-    summary:
-      "Dongeng gadis cantik hasil dari mentimun emas yang lari dari raksasa jahat.",
-    description:
-      "Seorang janda mendapat mentimun emas yang berubah menjadi bayi perempuan cantik, " +
-      "Timun Mas. Saat dewasa, raksasa yang menginginkannya datang mengejar. " +
-      "Dengan bantuan empat benda ajaib, Timun Mas berhasil mengalahkan raksasa.",
-    imageUrl: "https://images.pexels.com/photos/35930884/pexels-photo-35930884.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    aksaraText:
-      "ᬢᬶᬫᬸᬦ᭄​ᬫᬵᬲ᭄​ᬧᬧ᭄ᬧᬭᬶ​ᬓᬢ᭄ᬯ​ᬓᬫ᭄ᬧᬸᬯ᭄​ᬲᭂᬮᬲ᭄​ᬓᬤᭂᬂ​ᬭᬓ᭄ᬱ​ᬲᭂᬯᬭ᭄​ᬓᬧᬚ​᭟",
-    highlights: [
-      "Kecerdasan dapat mengalahkan kekuatan",
-      "Bantuan datang bagi yang pantas",
-      "Keberanian menghadapi ancaman",
+    "id": 4,
+    "slug": "timun-mas-bali",
+    "title": "Timun Mas Bali",
+    "category": "Dongeng",
+    "summary": "Keberanian dan kecerdikan seorang gadis melawan raksasa bengis berbekal benda-benda wasiat.",
+    "description": "Di sebuah desa terpencil di kaki bukit Bali, hiduplah seorang wanita paruh baya bernama Men Cendani yang hidup sebatang kara dan sangat merindukan seorang anak. Suatu hari, seekor raksasa sakti bertubuh besar datang menawarkan sebiji benih mentimun ajaib. Sang raksasa berjanji benih itu akan menghasilkan anak, dengan syarat bila anak itu berusia dewasa, ia harus diserahkan kembali kepada raksasa.\n\nMen Cendani yang mendambakan anak segera menanam benih tersebut. Dari pohon mentimun itu, tumbuhlah sebuah buah mentimun raksasa berwarna keemasan. Saat dibelah, di dalamnya terdapat bayi perempuan yang mungil dan jelita. Bayi itu diberi nama Timun Mas dan diasuh dengan penuh kasih sayang hingga tumbuh menjadi gadis yang cerdas dan berbakti.\n\nTahun-tahun berlalu, sang raksasa datang menagih janji dengan suara menggelegar. Merasa cemas akan keselamatan putrinya, Men Cendani menyuruh Timun Mas melarikan diri lewat pintu belakang sambil membekalinya empat bungkusan wasiat: biji mentimun, jarum jahit, garam dapur, dan terasi.\n\nRaksasa yang mengetahui muslihat itu segera mengejar dengan langkah raksasanya. Ketika raksasa hampir menangkapnya, Timun Mas melempar biji mentimun yang seketika berubah menjadi ladang mentimun luas berbuah lebat yang membuat raksasa berhenti sejenak untuk memakannya. Saat raksasa kembali mendekat, dilemparkannya jarum jahit yang menjelma menjadi hutan bambu berduri tajam yang mencabik-cabik kaki raksasa.\n\nKetika raksasa yang terluka terus mengejar, Timun Mas menaburkan garam yang langsung mengubah daratan menjadi lautan luas berombak ganas. Terakhir, saat raksasa berhasil berenang menyeberang, Timun Mas melemparkan terasi yang seketika mendidih menjadi lautan lumpur panas yang menenggelamkan raksasa jahat tersebut selamanya. Timun Mas pun kembali ke pelukan ibunya dan mereka hidup bahagia dalam kedamaian.",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Stamp_of_Indonesia_-_2006_-_Colnect_385032_-_Folklore_-_Mythology_Folklore.jpeg/960px-Stamp_of_Indonesia_-_2006_-_Colnect_385032_-_Folklore_-_Mythology_Folklore.jpeg",
+    "aksaraText": "ᬤᬶ ᬲᭂᬩᬸᬳᬄ ᬤᬾᬲ ᬢᭂᬃᬧᬾᬦ᭄ᬘᬶᬮ᭄ ᬤᬶ ᬓᬓᬶ ᬩᬸᬓᬶᬢ᭄ ᬩᬮᬶ᭞  ᬳᬶᬤᬸᬧ᭄ᬮᬄ ᬲᭂᬳᭀᬭᬂ ᬯᬦᬶᬢ ᬧᬭᬸᬄ ᬩᬬ ᬩᭂᬃᬦᬫ ᬫᭂᬦ᭄ ᬘᬾᬦ᭄ᬤᬦᬶ ᬬᬂ ᬳᬶᬤᬸᬧ᭄ ᬲᭂᬩᬢᬂ ᬓᬭ ᬤᬦ᭄ ᬲᬗᬢ᭄ ᬫᭂᬭᬶᬦ᭄ᬤᬸᬓᬦ᭄ ᬲᭂᬳᭀᬭᬂ ᬳᬦᬓ᭄᭟  ᬲᬸᬳᬢᬸ ᬳᬭᬶ᭞  ᬲᭂᬳᬾᬓᭀᬃ ᬭᬓ᭄ᬲᬲ ᬲᬓ᭄ᬢᬶ ᬩᭂᬃᬢᬸᬩᬸᬄ ᬩᭂᬲᬃ ᬤᬢᬂ ᬫᭂᬦᬯᬃᬓᬦ᭄ ᬲᭂᬩᬶᬚᬶ ᬩᬾᬦᬶᬄ ᬫᭂᬦ᭄ᬢᬶᬫᬸᬦ᭄ ᬳᬚᬳᬶᬩ᭄᭟  ᬲᬂ ᬭᬓ᭄ᬲᬲ ᬩᭂᬃᬚᬦ᭄ᬚᬶ ᬩᬾᬦᬶᬄ ᬳᬶᬢᬸ ᬳᬓᬦ᭄ ᬫᭂᬂᬳᬲᬶᬮ᭄ᬓᬦ᭄ ᬳᬦᬓ᭄᭞  ᬤᬾᬗᬦ᭄ ᬰᬭᬢ᭄ ᬩᬶᬮ ᬳᬦᬓ᭄ ᬳᬶᬢᬸ ᬩᭂᬭᬸᬲᬶᬳ ᬤᬾᬯᬲ᭞  ᬳᬶᬳ ᬳᬭᬸᬲ᭄ ᬤᬶᬲᬾᬭᬄᬓᬦ᭄ ᬓᭂᬫ᭄ᬩᬮᬶ ᬓᭂᬧᬤ ᬭᬓ᭄ᬲᬲ᭟ \n\nᬫᭂᬦ᭄ ᬘᬾᬦ᭄ᬤᬦᬶ ᬬᬂ ᬫᭂᬦ᭄ᬤᬫ᭄ᬩᬓᬦ᭄ ᬳᬦᬓ᭄ ᬲᭂᬕᬾᬭ ᬫᭂᬦᬦᬫ᭄ ᬩᬾᬦᬶᬄ ᬢᭂᬃᬲᬾᬩᬸᬢ᭄᭟  ᬤᬭᬶ ᬧᭀᬳᭀᬦ᭄ ᬫᭂᬦ᭄ᬢᬶᬫᬸᬦ᭄ ᬳᬶᬢᬸ᭞  ᬢᬸᬫ᭄ᬩᬸᬄᬮᬄ ᬲᭂᬩᬸᬳᬄ ᬩᬸᬳᬄ ᬫᭂᬦ᭄ᬢᬶᬫᬸᬦ᭄ ᬭᬓ᭄ᬲᬲ ᬩᭂᬃᬯᬃᬦ ᬓᭂᬳᬾᬫᬲᬦ᭄᭟  ᬲᬳᬢ᭄ ᬤᬶᬩᬾᬮᬄ᭞  ᬤᬶ ᬤᬮᬫ᭄ᬜ ᬢᭂᬃᬤᬧᬢ᭄ ᬩᬬᬶ ᬧᭂᬭᬾᬫ᭄ᬧᬸᬳᬦ᭄ ᬬᬂ ᬫᬸᬗᬶᬮ᭄ ᬤᬦ᭄ ᬚᬾᬮᬶᬢ᭟  ᬩᬬᬶ ᬳᬶᬢᬸ ᬤᬶᬩᬾᬭᬶ ᬦᬫ ᬢᬶᬫᬸᬦ᭄ ᬫᬲ᭄ ᬤᬦ᭄ ᬤᬶᬳᬲᬸᬄ ᬤᬾᬗᬦ᭄ ᬧᭂᬦᬸᬄ ᬓᬲᬶᬄ ᬲᬬᬂ ᬳᬶᬂᬕ ᬢᬸᬫ᭄ᬩᬸᬄ ᬫᭂᬦ᭄ᬚᬤᬶ ᬕᬤᬶᬲ᭄ ᬬᬂ ᬘᬾᬃᬤᬲ᭄ ᬤᬦ᭄ ᬩᭂᬃᬩᬓ᭄ᬢᬶ᭟ \n\nᬢᬳᬸᬦ᭄ᬢᬳᬸᬦ᭄ ᬩᭂᬃᬮᬮᬸ᭞  ᬲᬂ ᬭᬓ᭄ᬲᬲ ᬤᬢᬂ ᬫᭂᬦᬕᬶᬄ ᬚᬦ᭄ᬚᬶ ᬤᬾᬗᬦ᭄ ᬲᬸᬳᬭ ᬫᭂᬂᬕᬾᬮᬾᬕᬃ᭟  ᬫᭂᬭᬲ ᬘᬾᬫᬲ᭄ ᬳᬓᬦ᭄ ᬓᭂᬲᭂᬮᬫᬢᬦ᭄ ᬧᬸᬢ᭄ᬭᬶᬜ᭞  ᬫᭂᬦ᭄ ᬘᬾᬦ᭄ᬤᬦᬶ ᬫᭂᬜᬸᬭᬸᬄ ᬢᬶᬫᬸᬦ᭄ ᬫᬲ᭄ ᬫᭂᬮᬭᬶᬓᬦ᭄ ᬤᬶᬭᬶ ᬮᬾᬯᬢ᭄ ᬧᬶᬦ᭄ᬢᬸ ᬩᬾᬮᬓᬂ ᬲᬫ᭄ᬩᬶᬮ᭄ ᬫᭂᬫ᭄ᬩᬾᬓᬮᬶᬜ ᬳᬾᬫ᭄ᬧᬢ᭄ ᬩᬸᬂᬓᬸᬲᬦ᭄ ᬯᬲᬶᬳᬢ᭄᭟  ᬩᬶᬚᬶ ᬫᭂᬦ᭄ᬢᬶᬫᬸᬦ᭄᭞  ᬚᬭᬸᬫ᭄ ᬚᬳᬶᬢ᭄᭞  ᬕᬭᬫ᭄ ᬤᬧᬸᬃ᭞  ᬤᬦ᭄ ᬢᭂᬭᬲᬶ᭟ \n\nᬭᬓ᭄ᬲᬲ ᬬᬂ ᬫᭂᬗᬾᬢᬳᬸᬳᬶ ᬫᬸᬲ᭄ᬮᬶᬳᬢ᭄ ᬳᬶᬢᬸ ᬲᭂᬕᬾᬭ ᬫᭂᬗᬾᬚᬃ ᬤᬾᬗᬦ᭄ ᬮᬂᬓᬄ ᬭᬓ᭄ᬲᬲᬜ᭟  ᬓᭂᬢᬶᬓ ᬭᬓ᭄ᬲᬲ ᬳᬫ᭄ᬧᬶᬃ ᬫᭂᬦᬂᬓᬧ᭄ᬜ᭞  ᬢᬶᬫᬸᬦ᭄ ᬫᬲ᭄ ᬫᭂᬮᬾᬫ᭄ᬧᬃ ᬩᬶᬚᬶ ᬫᭂᬦ᭄ᬢᬶᬫᬸᬦ᭄ ᬬᬂ ᬲᭂᬓᬾᬢᬶᬓ ᬩᭂᬭᬸᬩᬄ ᬫᭂᬦ᭄ᬚᬤᬶ ᬮᬤᬂ ᬫᭂᬦ᭄ᬢᬶᬫᬸᬦ᭄ ᬮᬸᬳᬲ᭄ ᬩᭂᬃᬩᬸᬳᬄ ᬮᭂᬩᬢ᭄ ᬬᬂ ᬫᭂᬫ᭄ᬩᬸᬳᬢ᭄ ᬭᬓ᭄ᬲᬲ ᬩᭂᬃᬳᬾᬦ᭄ᬢᬶ ᬲᭂᬚᬾᬦᬓ᭄ ᬳᬸᬦ᭄ᬢᬸᬓ᭄ ᬫᭂᬫᬓᬦ᭄ᬜ᭟  ᬲᬳᬢ᭄ ᬭᬓ᭄ᬲᬲ ᬓᭂᬫ᭄ᬩᬮᬶ ᬫᭂᬦ᭄ᬤᬾᬓᬢ᭄᭞  ᬤᬶᬮᬾᬫ᭄ᬧᬃᬓᬦ᭄ᬜ ᬚᬭᬸᬫ᭄ ᬚᬳᬶᬢ᭄ ᬬᬂ ᬫᭂᬦ᭄ᬚᬾᬮ᭄ᬫ ᬫᭂᬦ᭄ᬚᬤᬶ ᬳᬸᬢᬦ᭄ ᬩᬫ᭄ᬩᬸ ᬩᭂᬃᬤᬸᬭᬶ ᬢᬚᬫ᭄ ᬬᬂ ᬫᭂᬦ᭄ᬘᬩᬶᬓ᭄ᬘᬩᬶᬓ᭄ ᬓᬓᬶ ᬭᬓ᭄ᬲᬲ᭟ \n\nᬓᭂᬢᬶᬓ ᬭᬓ᭄ᬲᬲ ᬬᬂ ᬢᭂᬃᬮᬸᬓ ᬢᭂᬭᬸᬲ᭄ ᬫᭂᬗᬾᬚᬃ᭞  ᬢᬶᬫᬸᬦ᭄ ᬫᬲ᭄ ᬫᭂᬦᬩᬸᬃᬓᬦ᭄ ᬕᬭᬫ᭄ ᬬᬂ ᬮᬂᬲᬸᬂ ᬫᭂᬗᬸᬩᬄ ᬤᬭᬢᬦ᭄ ᬫᭂᬦ᭄ᬚᬤᬶ ᬮᬳᬸᬢᬦ᭄ ᬮᬸᬳᬲ᭄ ᬩᭂᬭᭀᬫ᭄ᬩᬓ᭄ ᬕᬦᬲ᭄᭟  ᬢᭂᬭᬔᬶᬃ᭞  ᬲᬳᬢ᭄ ᬭᬓ᭄ᬲᬲ ᬩᭂᬃᬳᬲᬶᬮ᭄ ᬩᭂᬭᬾᬦᬂ ᬫᭂᬜᬾᬩᬾᬭᬂ᭞  ᬢᬶᬫᬸᬦ᭄ ᬫᬲ᭄ ᬫᭂᬮᬾᬫ᭄ᬧᬃᬓᬦ᭄ ᬢᭂᬭᬲᬶ ᬬᬂ ᬲᭂᬓᬾᬢᬶᬓ ᬫᭂᬦ᭄ᬤᬶᬤᬶᬄ ᬫᭂᬦ᭄ᬚᬤᬶ ᬮᬳᬸᬢᬦ᭄ ᬮᬸᬫ᭄ᬧᬸᬃ ᬧᬦᬲ᭄ ᬬᬂ ᬫᭂᬦᬾᬂᬕᬾᬮᬫ᭄ᬓᬦ᭄ ᬭᬓ᭄ᬲᬲ ᬚᬳᬢ᭄ ᬢᭂᬃᬲᬾᬩᬸᬢ᭄ ᬲᭂᬮᬫᬜ᭟  ᬢᬶᬫᬸᬦ᭄ ᬫᬲ᭄ ᬧᬸᬦ᭄ ᬓᭂᬫ᭄ᬩᬮᬶ ᬓᬾ ᬧᬾᬮᬸᬓᬦ᭄ ᬳᬶᬩᬸᬜ ᬤᬦ᭄ ᬫᭂᬭᬾᬓ ᬳᬶᬤᬸᬧ᭄ ᬩᬳᬕᬶᬳ ᬤᬮᬫ᭄ ᬓᭂᬤᬫᬳᬶᬳᬦ᭄᭟ ",
+    "highlights": [
+      "Kecerdikan dan ketenangan dalam menghadapi bahaya",
+      "Kasih sayang orang tua yang melindungi anaknya",
+      "Kejahatan pada akhirnya akan musnah"
     ],
-    level: "SD",
+    "level": "SD"
   },
   {
-    id: 5,
-    slug: "ramayana-bali",
-    title: "Ramayana di Bali",
-    category: "Epos",
-    summary:
-      "Kisah Rama menyelamatkan Sita dari Rahwana, epos yang mengakar dalam budaya Bali.",
-    description:
-      "Ramayana adalah epos yang melukiskan perjuangan Rama membebaskan Sita dari cengkeraman " +
-      "Rahwana. Di Bali, kisah ini dihidupkan melalui tari, wayang, dan relief candi. " +
-      "Pesan tentang dharma melawan adharma menjadi inti cerita.",
-    imageUrl: "https://images.pexels.com/photos/27375307/pexels-photo-27375307.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    aksaraText:
-      "ᬭᬫ​ᬓᬭᬂ​ᬲᬶᬢ​ᬭᬫ᭄ᬯᬓ᭄ᬬᬦ᭄​ᬲᬓᬸᬢ᭄​ᬓᬧ᭄ᬧᬮᬶ​ᬓᬲᬶᬤ᭄ᬬᬢ᭄​ᬓᬃᬭᭂᬯᬵᬬᬦ᭄​᭟",
-    highlights: [
-      "Dharma selalu menang atas adharma",
-      "Kesetiaan dan tanggung jawab Rama",
-      "Kisah ini menjadi warisan budaya Bali",
+    "id": 5,
+    "slug": "ramayana-bali",
+    "title": "Ramayana di Bali",
+    "category": "Epos",
+    "summary": "Epos perjuangan Sri Rama menegakkan kebenaran dan kesucian cinta melawan keangkaramurkaan Rahwana.",
+    "description": "Kisah Ramayana merupakan wiracarita agung yang menjiwai seni, falsafah, dan kehidupan masyarakat Bali. Cerita bermula ketika Sri Rama, pangeran Ayodhya titisan Bhatara Wisnu, menjalani masa pengasingan di Hutan Dandaka bersama permaisurinya yang setia, Dewi Sita, serta adiknya yang tangguh, Laksamana.\n\nKetenteraman mereka terusik ketika Raja Alengka yang berwatak angkara murka, Prabu Rahwana, terpikat oleh kecantikan Dewi Sita. Dengan tipu muslihat kijang kencana jelmaan Marica, Rahwana berhasil memisahkan Rama dan Laksamana dari perkemahan, lalu menculik Dewi Sita dan membawanya terbang melintasi angkasa ke Negeri Alengka. Burung Jatayu yang gagah berani mencoba menghadang di udara, namun gugur tertebas pedang Rahwana setelah sempat memberitahukan arah penculikan kepada Rama.\n\nDalam duka dan tekad menegakkan dharma, Rama menggalang persaudaraan dengan Sugriwa, raja kera dari Kerajaan Kiskenda. Panglima kera putih titisan Dewa Bayu yang sakti mandraguna, Hanoman, diutus menjadi duta ke Alengka untuk memastikan keselamatan Dewi Sita dan menyampaikan cincin tanda kesetiaan Rama.\n\nPuncak kisah terjadi saat bala tentara kera bahu-membahu membangun jembatan batu Situbanda melintasi samudra menuju Alengka. Pertempuran dahsyat meletus antara laskar kera pembela kebenaran melawan barisan raksasa Alengka. Melalui senjata panah pusaka Brahmastra, Rama akhirnya berhasil menundukkan Rahwana dan menjemput Dewi Sita. Di Bali, kisah kepahlawanan ini diabadikan secara magis dalam Tari Kecak di tebing Uluwatu dan pementasan Wayang Wong, mengingatkan bahwa Dharmo Raksati Raksitah—barangsiapa membela dharma, niscaya akan dilindungi oleh dharma.",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Balinese_dance_in_Ubud%2C_Ramayana%2C_20220822_1842_0185.jpg/960px-Balinese_dance_in_Ubud%2C_Ramayana%2C_20220822_1842_0185.jpg",
+    "aksaraText": "ᬓᬶᬲᬄ ᬭᬫᬬᬦ ᬫᭂᬭᬸᬧᬓᬦ᭄ ᬯᬶᬭᬘᬭᬶᬢ ᬳᬕᬸᬂ ᬬᬂ ᬫᭂᬦ᭄ᬚᬶᬯᬳᬶ ᬲᭂᬦᬶ᭞  ᬧᬮ᭄ᬲᬧᬄ᭞  ᬤᬦ᭄ ᬓᭂᬳᬶᬤᬸᬧᬦ᭄ ᬫᬰᬭᬓᬢ᭄ ᬩᬮᬶ᭟  ᬘᬾᬭᬶᬢ ᬩᭂᬃᬫᬸᬮ ᬓᭂᬢᬶᬓ ᬲ᭄ᬭᬶ ᬭᬫ᭞  ᬧᬗᬾᬭᬦ᭄ ᬳᬬᭀᬤ᭄ᬄᬬ ᬢᬶᬢᬶᬲᬦ᭄ ᬩ᭄ᬳᬢᬭ ᬯᬶᬲ᭄ᬦᬸ᭞  ᬫᭂᬦ᭄ᬚᬮᬦᬶ ᬫᬲ ᬧᭂᬗᬲᬶᬗᬦ᭄ ᬤᬶ ᬳᬸᬢᬦ᭄ ᬤᬦ᭄ᬤᬓ ᬩᭂᬃᬲᬫ ᬧᭂᬃᬫᬳᬶᬲᬸᬭᬶᬜ ᬬᬂ ᬲᭂᬢᬶᬳ᭞  ᬤᬾᬯᬶ ᬲᬶᬢ᭞  ᬲᭂᬃᬢ ᬳᬤᬶᬓ᭄ᬜ ᬬᬂ ᬢᬂᬕᬸᬄ᭞  ᬮᬓ᭄ᬲᬫᬦ᭟ \n\nᬓᭂᬢᬾᬦ᭄ᬢᬾᬭᬫᬦ᭄ ᬫᭂᬭᬾᬓ ᬢᭂᬭᬸᬲᬶᬓ᭄ ᬓᭂᬢᬶᬓ ᬭᬚ ᬳᬮᬾᬂᬓ ᬬᬂ ᬩᭂᬃᬯᬢᬓ᭄ ᬳᬂᬓᬭ ᬫᬸᬃᬓ᭞  ᬧ᭄ᬭᬩᬸ ᬭᬄᬯᬦ᭞  ᬢᭂᬃᬧᬶᬓᬢ᭄ ᬳᭀᬮᬾᬄ ᬓᭂᬘᬦ᭄ᬢᬶᬓᬦ᭄ ᬤᬾᬯᬶ ᬲᬶᬢ᭟  ᬤᬾᬗᬦ᭄ ᬢᬶᬧᬸ ᬫᬸᬲ᭄ᬮᬶᬳᬢ᭄ ᬓᬶᬚᬂ ᬓᭂᬦ᭄ᬘᬦ ᬚᬾᬮ᭄ᬫᬳᬦ᭄ ᬫᬭᬶᬘ᭞  ᬭᬄᬯᬦ ᬩᭂᬃᬳᬲᬶᬮ᭄ ᬫᭂᬫᬶᬲᬄᬓᬦ᭄ ᬭᬫ ᬤᬦ᭄ ᬮᬓ᭄ᬲᬫᬦ ᬤᬭᬶ ᬧᭂᬃᬓᬾᬫᬳᬦ᭄᭞  ᬮᬮᬸ ᬫᭂᬦ᭄ᬘᬸᬮᬶᬓ᭄ ᬤᬾᬯᬶ ᬲᬶᬢ ᬤᬦ᭄ ᬫᭂᬫ᭄ᬩᬯᬜ ᬢᭂᬃᬩᬂ ᬫᭂᬮᬶᬦ᭄ᬢᬲᬶ ᬳᬂᬓᬲ ᬓᬾ ᬦᭂᬕᭂᬭᬶ ᬳᬮᬾᬂᬓ᭟  ᬩᬸᬭᬸᬂ ᬚᬢᬬᬸ ᬬᬂ ᬕᬕᬄ ᬩᭂᬭᬦᬶ ᬫᭂᬦ᭄ᬘᭀᬩ ᬫᭂᬂᬳᬤᬂ ᬤᬶ ᬳᬸᬤᬭ᭞  ᬦᬫᬸᬦ᭄ ᬕᬸᬕᬸᬃ ᬢᭂᬃᬢᭂᬩᬲ᭄ ᬧᬾᬤᬂ ᬭᬄᬯᬦ ᬲᭂᬢᬾᬮᬄ ᬲᭂᬫ᭄ᬧᬢ᭄ ᬫᭂᬫ᭄ᬩᬾᬭᬶᬢᬳᬸᬓᬦ᭄ ᬳᬭᬄ ᬧᭂᬦ᭄ᬘᬸᬮᬶᬓᬦ᭄ ᬓᭂᬧᬤ ᬭᬫ᭟ \n\nᬤᬮᬫ᭄ ᬤᬸᬓ ᬤᬦ᭄ ᬢᬾᬓᬤ᭄ ᬫᭂᬦᬾᬕᬓ᭄ᬓᬦ᭄ ᬤ᭄ᬳᬃᬫ᭞  ᬭᬫ ᬫᭂᬂᬕᬮᬂ ᬧᭂᬃᬲᬳᬸᬤᬭᬳᬦ᭄ ᬤᬾᬗᬦ᭄ ᬲᬸᬕ᭄ᬭᬶᬯ᭞  ᬭᬚ ᬓᭂᬭ ᬤᬭᬶ ᬓᭂᬭᬚᬳᬦ᭄ ᬓᬶᬲ᭄ᬓᬾᬦ᭄ᬤ᭟  ᬧᬂᬮᬶᬫ ᬓᭂᬭ ᬧᬸᬢᬶᬄ ᬢᬶᬢᬶᬲᬦ᭄ ᬤᬾᬯ ᬩᬬᬸ ᬬᬂ ᬲᬓ᭄ᬢᬶ ᬫᬦ᭄ᬤ᭄ᬭᬕᬸᬦ᭞  ᬳᬦᭀᬫᬦ᭄᭞  ᬤᬶᬳᬸᬢᬸᬲ᭄ ᬫᭂᬦ᭄ᬚᬤᬶ ᬤᬸᬢ ᬓᬾ ᬳᬮᬾᬂᬓ ᬳᬸᬦ᭄ᬢᬸᬓ᭄ ᬫᭂᬫᬲ᭄ᬢᬶᬓᬦ᭄ ᬓᭂᬲᭂᬮᬫᬢᬦ᭄ ᬤᬾᬯᬶ ᬲᬶᬢ ᬤᬦ᭄ ᬫᭂᬜᬫ᭄ᬧᬳᬶᬓᬦ᭄ ᬘᬶᬦ᭄ᬘᬶᬦ᭄ ᬢᬦ᭄ᬤ ᬓᭂᬲᬾᬢᬶᬳᬳᬦ᭄ ᬭᬫ᭟ \n\nᬧᬸᬦ᭄ᬘᬓ᭄ ᬓᬶᬲᬄ ᬢᭂᬃᬚᬤᬶ ᬲᬳᬢ᭄ ᬩᬮ ᬢᬾᬦ᭄ᬢᬭ ᬓᭂᬭ ᬩᬳᬸᬫᭂᬫ᭄ᬩᬳᬸ ᬫᭂᬫ᭄ᬩᬗᬸᬦ᭄ ᬚᬾᬫ᭄ᬩᬢᬦ᭄ ᬩᬢᬸ ᬲᬶᬢᬸᬩᬦ᭄ᬤ ᬫᭂᬮᬶᬦ᭄ᬢᬲᬶ ᬲᬫᬸᬤ᭄ᬭ ᬫᭂᬦᬸᬚᬸ ᬳᬮᬾᬂᬓ᭟  ᬧᭂᬃᬢᬾᬫ᭄ᬧᬸᬭᬦ᭄ ᬤᬄᬰᬢ᭄ ᬫᭂᬮᬾᬢᬸᬲ᭄ ᬳᬦ᭄ᬢᬭ ᬮᬲ᭄ᬓᬃ ᬓᭂᬭ ᬧᭂᬫ᭄ᬩᬾᬮ ᬓᭂᬩᭂᬦᬭᬦ᭄ ᬫᭂᬮᬯᬦ᭄ ᬩᬭᬶᬲᬦ᭄ ᬭᬓ᭄ᬲᬲ ᬳᬮᬾᬂᬓ᭟  ᬫᭂᬮᬮᬸᬳᬶ ᬲᭂᬦ᭄ᬚᬢ ᬧᬦᬄ ᬧᬸᬲᬓ ᬩ᭄ᬭᬄᬫᬲ᭄ᬢ᭄ᬭ᭞  ᬭᬫ ᬳᬔᬶᬃᬜ ᬩᭂᬃᬳᬲᬶᬮ᭄ ᬫᭂᬦᬸᬦ᭄ᬤᬸᬓ᭄ᬓᬦ᭄ ᬭᬄᬯᬦ ᬤᬦ᭄ ᬫᭂᬦ᭄ᬚᬾᬫ᭄ᬧᬸᬢ᭄ ᬤᬾᬯᬶ ᬲᬶᬢ᭟  ᬤᬶ ᬩᬮᬶ᭞  ᬓᬶᬲᬄ ᬓᭂᬧᬄᬮᬯᬦᬦ᭄ ᬳᬶᬦᬶ ᬤᬶᬳᬩᬤᬶᬓᬦ᭄ ᬲᭂᬘᬭ ᬫᬕᬶᬲ᭄ ᬤᬮᬫ᭄ ᬢᬭᬶ ᬓᭂᬘᬓ᭄ ᬤᬶ ᬢᭂᬩᬶᬂ ᬳᬸᬮᬸᬯᬢᬸ ᬤᬦ᭄ ᬧᭂᬫᬾᬦ᭄ᬢᬲᬦ᭄ ᬯᬬᬂ ᬯᭀᬂ᭞  ᬫᭂᬗᬶᬗᬢ᭄ᬓᬦ᭄ ᬩᬄᬯ ᬤ᭄ᬳᬃᬫᭀ ᬭᬓ᭄ᬲᬢᬶ ᬭᬓ᭄ᬲᬶᬢᬄᬩᬭᬂᬲᬶᬳᬧ ᬫᭂᬫ᭄ᬩᬾᬮ ᬤ᭄ᬳᬃᬫ᭞  ᬦᬶᬲ᭄ᬘᬬ ᬳᬓᬦ᭄ ᬤᬶᬮᬶᬦ᭄ᬤᬸᬗᬶ ᬳᭀᬮᬾᬄ ᬤ᭄ᬳᬃᬫ᭟ ",
+    "highlights": [
+      "Dharma (kebenaran) niscaya menang atas adharma (kejahatan)",
+      "Kesetiaan kawan dan pengabdian Hanoman tanpa pamrih",
+      "Kisah agung yang menjadi inspirasi tari dan seni budaya Bali"
     ],
-    level: "SMA/SMK",
+    "level": "SMA/SMK"
   },
   {
-    id: 6,
-    slug: "men-tugek",
-    title: "Men Tugek",
-    category: "Dongeng Hewan",
-    summary:
-      "Dongeng ayam jago peliharaan raja yang menaklukkan buaya melalui kepandaian.",
-    description:
-      "Men Tugek adalah ayam jago kesayangan seorang raja yang diperebutkan oleh banyak orang. " +
-      "Dengan kepandaian dan keberanian, Men Tugek berhasil mengatasi buaya yang ingin " +
-      "memakannya. Dongeng ini mengajarkan bahwa akal dapat mengalahkan tenaga.",
-    imageUrl: "https://images.pexels.com/photos/35635112/pexels-photo-35635112.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    aksaraText:
-      "ᬫᭂᬦ᭄​ᬢᬸᬕᭂᬓ᭄​ᬓᬮᬫ᭄ᬩᬂ​ᬧ᭄ᬭᬗᬵᬬ​ᬓᬬᬵ​ᬲᬓᬸᬢ᭄​ᬓᬭᬂ​ᬩᬸᬬ​ᬢᬃᬧ​ᬢ᭄ᬯᬗᬦ᭄​᭟",
-    highlights: [
-      "Akal dapat mengalahkan kekuatan",
-      "Keberanian muncul dari kepercayaan diri",
-      "Tetap rendah hati meski menang",
+    "id": 6,
+    "slug": "men-tugek",
+    "title": "Men Tugek",
+    "category": "Dongeng Hewan",
+    "summary": "Dongeng satwa Bali tentang ketabahan dan kecerdikan seekor ayam dalam melindungi keluarganya dari pemangsa buas.",
+    "description": "Di sebuah sudut pedesaan yang asri di Gianyar, hiduplah Men Tugek, seekor induk ayam yang sangat disayangi oleh pemiliknya karena rajin dan setia menjaga telur-telurnya. Setelah berminggu-minggu mengerami dengan sabar, Men Tugek dikaruniai beberapa ekor anak ayam yang lucu dan lincah berbulu kuning keemasan.\n\nSuatu sore saat sedang mencari makan di dekat rumpun bambu tepi sungai, langit mendadak mendung gelap dan hujan lebat turun mengguyur bumi. Banjir sungai meluap memutus jalan pulang ke kandang. Terjebak dalam dinginnya malam, Men Tugek terpaksa membawa anak-anaknya berteduh di sebuah gubuk tua kosong di pinggiran semak belukar.\n\nTanpa disadari, gubuk tersebut ternyata merupakan sarang seekor buaya muara dan pemangsa hutan yang licik. Dari balik kegelapan, mata buaya itu berbinar-binar mencium aroma mangsa empuk. Buaya itu bersiap menelan anak-anak ayam satu per satu. Namun Men Tugek tetap tenang dan tidak panik demi keselamatan anak-anaknya.\n\nDengan tutur kata yang santun dan akal cerdiknya, Men Tugek berkata kepada buaya bahwa anak-anaknya saat ini masih terlalu kecil dan kurus kering, bahkan dagingnya pahit karena baru kehujanan. Ia menyarankan agar buaya menunggunya memberi makan biji-bijian hangat hingga esok pagi agar anak-anaknya gemuk dan manis rasanya. Terperdaya oleh janji itu, sang buaya setuju dan tertidur lelap.\n\nBegitu fajar menyingsing dan air surut, Men Tugek dengan gesit membangunkan anak-anaknya dan terbang melompati pagar gubuk menuju perkampungan warga. Saat buaya terbangun dalam keadaan lapar, Men Tugek dan anak-anaknya telah aman di pelukan pemiliknya. Satua ini mengajarkan bahwa ketenangan pikiran dan kecerdikan akal mampu menyelamatkan diri dari ancaman bahaya yang paling besar sekalipun.",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Ritual_memandikan_ayam_di_Bali.jpg/960px-Ritual_memandikan_ayam_di_Bali.jpg",
+    "aksaraText": "ᬤᬶ ᬲᭂᬩᬸᬳᬄ ᬲᬸᬤᬸᬢ᭄ ᬧᬾᬤᬾᬲᬳᬦ᭄ ᬬᬂ ᬳᬲ᭄ᬭᬶ ᬤᬶ ᬕᬶᬳᬜᬃ᭞  ᬳᬶᬤᬸᬧ᭄ᬮᬄ ᬫᭂᬦ᭄ ᬢᬸᬕᬾᬓ᭄᭞  ᬲᭂᬳᬾᬓᭀᬃ ᬳᬶᬦ᭄ᬤᬸᬓ᭄ ᬳᬬᬫ᭄ ᬬᬂ ᬲᬗᬢ᭄ ᬤᬶᬲᬬᬗᬶ ᬳᭀᬮᬾᬄ ᬧᭂᬫᬶᬮᬶᬓ᭄ᬜ ᬓᬭᬾᬦ ᬭᬚᬶᬦ᭄ ᬤᬦ᭄ ᬲᭂᬢᬶᬳ ᬫᭂᬦ᭄ᬚᬕ ᬢᭂᬮᬸᬃᬢᭂᬮᬸᬃᬜ᭟  ᬲᭂᬢᬾᬮᬄ ᬩᭂᬃᬫᬶᬂᬕᬸᬫᬶᬂᬕᬸ ᬫᭂᬗᬾᬭᬫᬶ ᬤᬾᬗᬦ᭄ ᬲᬩᬃ᭞  ᬫᭂᬦ᭄ ᬢᬸᬕᬾᬓ᭄ ᬤᬶᬓᬭᬸᬦᬶᬳᬳᬶ ᬩᬾᬩᬾᬭᬧ ᬳᬾᬓᭀᬃ ᬳᬦᬓ᭄ ᬳᬬᬫ᭄ ᬬᬂ ᬮᬸᬘᬸ ᬤᬦ᭄ ᬮᬶᬦ᭄ᬘᬄ ᬩᭂᬃᬩᬸᬮᬸ ᬓᬸᬦᬶᬂ ᬓᭂᬳᬾᬫᬲᬦ᭄᭟ \n\nᬲᬸᬳᬢᬸ ᬲᭀᬭᬾ ᬲᬳᬢ᭄ ᬲᭂᬤᬂ ᬫᭂᬦ᭄ᬘᬭᬶ ᬫᬓᬦ᭄ ᬤᬶ ᬤᬾᬓᬢ᭄ ᬭᬸᬫ᭄ᬧᬸᬦ᭄ ᬩᬫ᭄ᬩᬸ ᬢᬾᬧᬶ ᬲᬸᬗᬳᬶ᭞  ᬮᬗᬶᬢ᭄ ᬫᭂᬦ᭄ᬤᬤᬓ᭄ ᬫᭂᬦ᭄ᬤᬸᬂ ᬕᬾᬮᬧ᭄ ᬤᬦ᭄ ᬳᬸᬚᬦ᭄ ᬮᭂᬩᬢ᭄ ᬢᬸᬭᬸᬦ᭄ ᬫᭂᬂᬕᬸᬬᬸᬃ ᬩᬸᬫᬶ᭟  ᬩᬦ᭄ᬚᬶᬃ ᬲᬸᬗᬳᬶ ᬫᭂᬮᬸᬳᬧ᭄ ᬫᭂᬫᬸᬢᬸᬲ᭄ ᬚᬮᬦ᭄ ᬧᬸᬮᬂ ᬓᬾ ᬓᬦ᭄ᬤᬂ᭟  ᬢᭂᬃᬚᬾᬩᬓ᭄ ᬤᬮᬫ᭄ ᬤᬶᬗᬶᬦ᭄ᬜ ᬫᬮᬫ᭄᭞  ᬫᭂᬦ᭄ ᬢᬸᬕᬾᬓ᭄ ᬢᭂᬃᬧᬓ᭄ᬲ ᬫᭂᬫ᭄ᬩᬯ ᬳᬦᬓ᭄ᬳᬦᬓ᭄ᬜ ᬩᭂᬃᬢᬾᬤᬸᬄ ᬤᬶ ᬲᭂᬩᬸᬳᬄ ᬕᬸᬩᬸᬓ᭄ ᬢᬸᬳ ᬓᭀᬲᭀᬂ ᬤᬶ ᬧᬶᬂᬕᬶᬭᬦ᭄ ᬲᭂᬫᬓ᭄ ᬩᬾᬮᬸᬓᬃ᭟ \n\nᬢᬦ᭄ᬧ ᬤᬶᬲᬤᬭᬶ᭞  ᬕᬸᬩᬸᬓ᭄ ᬢᭂᬃᬲᬾᬩᬸᬢ᭄ ᬢᭂᬃᬜᬢ ᬫᭂᬭᬸᬧᬓᬦ᭄ ᬲᬭᬂ ᬲᭂᬳᬾᬓᭀᬃ ᬩᬸᬳᬬ ᬫᬸᬳᬭ ᬤᬦ᭄ ᬧᭂᬫᬂᬲ ᬳᬸᬢᬦ᭄ ᬬᬂ ᬮᬶᬘᬶᬓ᭄᭟  ᬤᬭᬶ ᬩᬮᬶᬓ᭄ ᬓᭂᬕᬾᬮᬧᬦ᭄᭞  ᬫᬢ ᬩᬸᬳᬬ ᬳᬶᬢᬸ ᬩᭂᬃᬩᬶᬦᬃᬩᬶᬦᬃ ᬫᭂᬦ᭄ᬘᬶᬳᬸᬫ᭄ ᬳᬭᭀᬫ ᬫᬂᬲ ᬳᬾᬫ᭄ᬧᬸᬓ᭄᭟  ᬩᬸᬳᬬ ᬳᬶᬢᬸ ᬩᭂᬃᬲᬶᬳᬧ᭄ ᬫᭂᬦᬾᬮᬦ᭄ ᬳᬦᬓ᭄ᬳᬦᬓ᭄ ᬳᬬᬫ᭄ ᬲᬢᬸ ᬧᬾᬃ ᬲᬢᬸ᭟  ᬦᬫᬸᬦ᭄ ᬫᭂᬦ᭄ ᬢᬸᬕᬾᬓ᭄ ᬢᬾᬢᬧ᭄ ᬢᬾᬦᬂ ᬤᬦ᭄ ᬢᬶᬤᬓ᭄ ᬧᬦᬶᬓ᭄ ᬤᬾᬫᬶ ᬓᭂᬲᭂᬮᬫᬢᬦ᭄ ᬳᬦᬓ᭄ᬳᬦᬓ᭄ᬜ᭟ \n\nᬤᬾᬗᬦ᭄ ᬢᬸᬢᬸᬃ ᬓᬢ ᬬᬂ ᬲᬦ᭄ᬢᬸᬦ᭄ ᬤᬦ᭄ ᬳᬓᬮ᭄ ᬘᬾᬃᬤᬶᬓ᭄ᬜ᭞  ᬫᭂᬦ᭄ ᬢᬸᬕᬾᬓ᭄ ᬩᭂᬃᬓᬢ ᬓᭂᬧᬤ ᬩᬸᬳᬬ ᬩᬄᬯ ᬳᬦᬓ᭄ᬳᬦᬓ᭄ᬜ ᬲᬳᬢ᭄ ᬳᬶᬦᬶ ᬫᬲᬶᬄ ᬢᭂᬃᬮᬮᬸ ᬓᭂᬘᬶᬮ᭄ ᬤᬦ᭄ ᬓᬸᬭᬸᬲ᭄ ᬓᭂᬭᬶᬂ᭞  ᬩᬄᬓᬦ᭄ ᬤᬕᬶᬂᬜ ᬧᬳᬶᬢ᭄ ᬓᬭᬾᬦ ᬩᬭᬸ ᬓᭂᬳᬸᬚᬦᬦ᭄᭟  ᬳᬶᬳ ᬫᭂᬜᬭᬦ᭄ᬓᬦ᭄ ᬳᬕᬃ ᬩᬸᬳᬬ ᬫᭂᬦᬸᬂᬕᬸᬜ ᬫᭂᬫ᭄ᬩᬾᬭᬶ ᬫᬓᬦ᭄ ᬩᬶᬚᬶᬩᬶᬚᬶᬳᬦ᭄ ᬳᬗᬢ᭄ ᬳᬶᬂᬕ ᬳᬾᬲᭀᬓ᭄ ᬧᬕᬶ ᬳᬕᬃ ᬳᬦᬓ᭄ᬳᬦᬓ᭄ᬜ ᬕᬾᬫᬸᬓ᭄ ᬤᬦ᭄ ᬫᬦᬶᬲ᭄ ᬭᬲᬜ᭟  ᬢᭂᬃᬧᬾᬃᬤᬬ ᬳᭀᬮᬾᬄ ᬚᬦ᭄ᬚᬶ ᬳᬶᬢᬸ᭞  ᬲᬂ ᬩᬸᬳᬬ ᬲᭂᬢᬸᬚᬸ ᬤᬦ᭄ ᬢᭂᬃᬢᬶᬤᬸᬃ ᬮᭂᬮᬧ᭄᭟ \n\nᬩᬾᬕᬶᬢᬸ ᬧᬚᬃ ᬫᭂᬜᬶᬂᬲᬶᬂ ᬤᬦ᭄ ᬳᬳᬶᬃ ᬲᬸᬭᬸᬢ᭄᭞  ᬫᭂᬦ᭄ ᬢᬸᬕᬾᬓ᭄ ᬤᬾᬗᬦ᭄ ᬕᬾᬲᬶᬢ᭄ ᬫᭂᬫ᭄ᬩᬗᬸᬦ᭄ᬓᬦ᭄ ᬳᬦᬓ᭄ᬳᬦᬓ᭄ᬜ ᬤᬦ᭄ ᬢᭂᬃᬩᬂ ᬫᭂᬮᭀᬫ᭄ᬧᬢᬶ ᬧᬕᬃ ᬕᬸᬩᬸᬓ᭄ ᬫᭂᬦᬸᬚᬸ ᬧᭂᬃᬓᬫ᭄ᬧᬸᬗᬦ᭄ ᬯᬃᬕ᭟  ᬲᬳᬢ᭄ ᬩᬸᬳᬬ ᬢᭂᬃᬩᬗᬸᬦ᭄ ᬤᬮᬫ᭄ ᬓᭂᬳᬤᬳᬦ᭄ ᬮᬧᬃ᭞  ᬫᭂᬦ᭄ ᬢᬸᬕᬾᬓ᭄ ᬤᬦ᭄ ᬳᬦᬓ᭄ᬳᬦᬓ᭄ᬜ ᬢᬾᬮᬄ ᬳᬫᬦ᭄ ᬤᬶ ᬧᬾᬮᬸᬓᬦ᭄ ᬧᭂᬫᬶᬮᬶᬓ᭄ᬜ᭟  ᬲᬢᬸᬳ ᬳᬶᬦᬶ ᬫᭂᬗᬚᬃᬓᬦ᭄ ᬩᬄᬯ ᬓᭂᬢᬾᬦᬗᬦ᭄ ᬧᬶᬓᬶᬭᬦ᭄ ᬤᬦ᭄ ᬓᭂᬘᬾᬃᬤᬶᬓᬦ᭄ ᬳᬓᬮ᭄ ᬫᬫ᭄ᬧᬸ ᬫᭂᬜᬾᬮᬫᬢ᭄ᬓᬦ᭄ ᬤᬶᬭᬶ ᬤᬭᬶ ᬳᬦ᭄ᬘᬫᬦ᭄ ᬩᬳᬬ ᬬᬂ ᬧᬮᬶᬂ ᬩᭂᬲᬃ ᬲᭂᬓᬮᬶᬧᬸᬦ᭄᭟ ",
+    "highlights": [
+      "Ketenangan pikiran melahirkan jalan keluar terbaik",
+      "Kecerdikan akal mampu menundukkan kekuatan kasar",
+      "Naluri kasih sayang seorang ibu yang pantang menyerah"
     ],
-    level: "SMP",
+    "level": "SMP"
   },
   {
-    id: 7,
-    slug: "bedawang-nala",
-    title: "Bedawang Nala",
-    category: "Mitos Hewan",
-    summary:
-      "Kura-kura raksasa yang memikul dunia di atas punggungnya.",
-    description:
-      "Bedawang Nala adalah kura-kura raksasa yang menopang dunia. " +
-      "Dalam kepercayaan Bali, ia dipercaya memikul dunia di atas punggungnya. " +
-      "Tubuhnya dililit naga Basuki agar tetap kokoh. " +
-      "Keseimbangan dunia bergantung pada kekuatan dan kesetiaannya menjalankan tugas.",
-    imageUrl: "https://images.pexels.com/photos/7116122/pexels-photo-7116122.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    aksaraText: "ᬩᬾᬤᬯᬂ ᬦᬮ ᬅᬤᬮᬳ᭄ ᬓᬸᬭ ᬓᬸᬭ ᬭᬓ᭄ᬲᬲ ᬬᬂ ᬫᬾᬦᭀᬧᬂ ᬤᬸᬦᬶᬅ ᭟",
-    highlights: [
-      "Setiap makhluk punya peran menjaga keseimbangan",
-      "Kekuatan besar perlu diimbangi kesabaran",
-      "Dunia tegak karena kerja sama semua pihak",
+    "id": 7,
+    "slug": "bedawang-nala",
+    "title": "Bedawang Nala",
+    "category": "Mitos Hewan",
+    "summary": "Mitologi kura-kura raksasa penopang bumi dan kekuatan kosmis penyeimbang Pulau Bali.",
+    "description": "Dalam kosmologi kuno masyarakat Bali yang tertuang dalam Lontar Tantu Pagelaran, alam semesta tersusun atas keharmonisan berbagai unsur kosmis yang saling menopang. Di lapisan terdalam dasar bumi yang sunyi, bersemayam seekor kura-kura raksasa kosmis yang bernama Bedawang Nala.\n\nBedawang Nala melambangkan energi panas bumi dan api magma yang berkobar di perut bumi (kata nala berarti api). Apabila kura-kura raksasa ini bergerak atau menggeliat karena beban bumi yang berat, maka permukaan tanah di atasnya akan berguncang dahsyat menimbulkan gempa bumi dan gunung-gunung berapi meletus mengeluarkan lahar panas.\n\nAgar bumi tidak terus berguncang dan kehidupan manusia di atasnya tetap damai, dua ekor naga suci yang agung diperintahkan mendampinginya. Naga Basuki melingkari tubuh Bedawang Nala dengan erat sebagai lambang air dan kesejukan yang meredam hawa panas api, sedangkan Naga Anantaboga merangkul dasar bumi sebagai lambang kemakmuran dan kesuburan tanah.\n\nPerpaduan antara Bedawang Nala dan dua naga suci ini menciptakan keseimbangan abadi antara unsur api, air, dan tanah. Penggambaran mitologis ini senantiasa hadir dalam arsitektur Padmasana—tempat pemujaan tertinggi di pura-pura Bali—di mana dasar candi dipahat berwujud kura-kura raksasa yang dililit naga. Kisah ini mengajarkan manusia untuk senantiasa menjaga keseimbangan alam dan menghormati kekuatan bumi pertiwi.",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Bedawang_Nala_%28I_Ketut_Ged%C3%A9%29.jpg/960px-Bedawang_Nala_%28I_Ketut_Ged%C3%A9%29.jpg",
+    "aksaraText": "ᬤᬮᬫ᭄ ᬓᭀᬲ᭄ᬫᭀᬮᭀᬕᬶ ᬓᬸᬦᭀ ᬫᬰᬭᬓᬢ᭄ ᬩᬮᬶ ᬬᬂ ᬢᭂᬃᬢᬸᬳᬂ ᬤᬮᬫ᭄ ᬮᭀᬦ᭄ᬢᬃ ᬢᬦ᭄ᬢᬸ ᬧᬕᬾᬮᬭᬦ᭄᭞  ᬳᬮᬫ᭄ ᬲᭂᬫᬾᬲ᭄ᬢ ᬢᭂᬃᬲᬸᬲᬸᬦ᭄ ᬳᬢᬲ᭄ ᬓᭂᬳᬃᬫᭀᬦᬶᬲᬦ᭄ ᬩᭂᬃᬩᬕᬳᬶ ᬳᬸᬦ᭄ᬲᬸᬃ ᬓᭀᬲ᭄ᬫᬶᬲ᭄ ᬬᬂ ᬲᬮᬶᬂ ᬫᭂᬦᭀᬧᬂ᭟  ᬤᬶ ᬮᬧᬶᬲᬦ᭄ ᬢᭂᬃᬤᬮᬫ᭄ ᬤᬲᬃ ᬩᬸᬫᬶ ᬬᬂ ᬲᬸᬜᬶ᭞  ᬩᭂᬃᬲᬾᬫᬬᬫ᭄ ᬲᭂᬳᬾᬓᭀᬃ ᬓᬸᬭᬓᬸᬭ ᬭᬓ᭄ᬲᬲ ᬓᭀᬲ᭄ᬫᬶᬲ᭄ ᬬᬂ ᬩᭂᬃᬦᬫ ᬩᬾᬤᬯᬂ ᬦᬮ᭟ \n\nᬩᬾᬤᬯᬂ ᬦᬮ ᬫᭂᬮᬫ᭄ᬩᬂᬓᬦ᭄ ᬳᬾᬦᬾᬃᬕᬶ ᬧᬦᬲ᭄ ᬩᬸᬫᬶ ᬤᬦ᭄ ᬳᬧᬶ ᬫᬕ᭄ᬫ ᬬᬂ ᬩᭂᬃᬓᭀᬩᬃ ᬤᬶ ᬧᭂᬭᬸᬢ᭄ ᬩᬸᬫᬶ ᬓᬢ ᬦᬮ ᬩᭂᬭᬃᬢᬶ ᬳᬧᬶ᭟  ᬳᬧᬩᬶᬮ ᬓᬸᬭᬓᬸᬭ ᬭᬓ᭄ᬲᬲ ᬳᬶᬦᬶ ᬩᭂᬃᬕᬾᬭᬓ᭄ ᬳᬢᬳᬸ ᬫᭂᬂᬕᬾᬮᬶᬳᬢ᭄ ᬓᬭᬾᬦ ᬩᬾᬩᬦ᭄ ᬩᬸᬫᬶ ᬬᬂ ᬩᭂᬭᬢ᭄᭞  ᬫᬓ ᬧᭂᬃᬫᬸᬓᬳᬦ᭄ ᬢᬦᬄ ᬤᬶ ᬳᬢᬲ᭄ᬜ ᬳᬓᬦ᭄ ᬩᭂᬃᬕᬸᬦ᭄ᬘᬂ ᬤᬄᬰᬢ᭄ ᬫᭂᬦᬶᬫ᭄ᬩᬸᬮ᭄ᬓᬦ᭄ ᬕᬾᬫ᭄ᬧ ᬩᬸᬫᬶ ᬤᬦ᭄ ᬕᬸᬦᬸᬂᬕᬸᬦᬸᬂ ᬩᭂᬭᬧᬶ ᬫᭂᬮᬾᬢᬸᬲ᭄ ᬫᭂᬗᬾᬮᬸᬳᬃᬓᬦ᭄ ᬮᬳᬃ ᬧᬦᬲ᭄᭟ \n\nᬳᬕᬃ ᬩᬸᬫᬶ ᬢᬶᬤᬓ᭄ ᬢᭂᬭᬸᬲ᭄ ᬩᭂᬃᬕᬸᬦ᭄ᬘᬂ ᬤᬦ᭄ ᬓᭂᬳᬶᬤᬸᬧᬦ᭄ ᬫᬦᬸᬲᬶᬳ ᬤᬶ ᬳᬢᬲ᭄ᬜ ᬢᬾᬢᬧ᭄ ᬤᬫᬳᬶ᭞  ᬤᬸᬳ ᬳᬾᬓᭀᬃ ᬦᬕ ᬲᬸᬘᬶ ᬬᬂ ᬳᬕᬸᬂ ᬤᬶᬧᬾᬭᬶᬦ᭄ᬢᬄᬓᬦ᭄ ᬫᭂᬦ᭄ᬤᬫ᭄ᬧᬶᬗᬶᬜ᭟  ᬦᬕ ᬩᬲᬸᬓᬶ ᬫᭂᬮᬶᬂᬓᬭᬶ ᬢᬸᬩᬸᬄ ᬩᬾᬤᬯᬂ ᬦᬮ ᬤᬾᬗᬦ᭄ ᬳᬾᬭᬢ᭄ ᬲᭂᬩᬕᬳᬶ ᬮᬫ᭄ᬩᬂ ᬳᬳᬶᬃ ᬤᬦ᭄ ᬓᭂᬲᬾᬚᬸᬓᬦ᭄ ᬬᬂ ᬫᭂᬭᬾᬤᬫ᭄ ᬳᬯ ᬧᬦᬲ᭄ ᬳᬧᬶ᭞  ᬲᭂᬤᬂᬓᬦ᭄ ᬦᬕ ᬳᬦᬦ᭄ᬢᬩᭀᬕ ᬫᭂᬭᬂᬓᬸᬮ᭄ ᬤᬲᬃ ᬩᬸᬫᬶ ᬲᭂᬩᬕᬳᬶ ᬮᬫ᭄ᬩᬂ ᬓᭂᬫᬓ᭄ᬫᬸᬭᬦ᭄ ᬤᬦ᭄ ᬓᭂᬲᬸᬩᬸᬭᬦ᭄ ᬢᬦᬄ᭟ \n\nᬧᭂᬃᬧᬤᬸᬳᬦ᭄ ᬳᬦ᭄ᬢᬭ ᬩᬾᬤᬯᬂ ᬦᬮ ᬤᬦ᭄ ᬤᬸᬳ ᬦᬕ ᬲᬸᬘᬶ ᬳᬶᬦᬶ ᬫᭂᬦ᭄ᬘᬶᬧ᭄ᬢᬓᬦ᭄ ᬓᭂᬲᬾᬳᬶᬫ᭄ᬩᬗᬦ᭄ ᬳᬩᬤᬶ ᬳᬦ᭄ᬢᬭ ᬳᬸᬦ᭄ᬲᬸᬃ ᬳᬧᬶ᭞  ᬳᬳᬶᬃ᭞  ᬤᬦ᭄ ᬢᬦᬄ᭟  ᬧᭂᬂᬕᬫ᭄ᬩᬭᬦ᭄ ᬫᬶᬢᭀᬮᭀᬕᬶᬲ᭄ ᬳᬶᬦᬶ ᬲᭂᬦᬦ᭄ᬢᬶᬳᬲ ᬳᬤᬶᬃ ᬤᬮᬫ᭄ ᬳᬃᬲᬶᬢᬾᬓ᭄ᬢᬸᬃ ᬧᬤ᭄ᬫᬲᬦᬢᬾᬫ᭄ᬧᬢ᭄ ᬧᭂᬫᬸᬚᬳᬦ᭄ ᬢᭂᬃᬢᬶᬂᬕᬶ ᬤᬶ ᬧᬸᬭᬧᬸᬭ ᬩᬮᬶᬤᬶ ᬫᬦ ᬤᬲᬃ ᬘᬦ᭄ᬤᬶ ᬤᬶᬧᬳᬢ᭄ ᬩᭂᬃᬯᬸᬚᬸᬤ᭄ ᬓᬸᬭᬓᬸᬭ ᬭᬓ᭄ᬲᬲ ᬬᬂ ᬤᬶᬮᬶᬮᬶᬢ᭄ ᬦᬕ᭟  ᬓᬶᬲᬄ ᬳᬶᬦᬶ ᬫᭂᬗᬚᬃᬓᬦ᭄ ᬫᬦᬸᬲᬶᬳ ᬳᬸᬦ᭄ᬢᬸᬓ᭄ ᬲᭂᬦᬦ᭄ᬢᬶᬳᬲ ᬫᭂᬦ᭄ᬚᬕ ᬓᭂᬲᬾᬳᬶᬫ᭄ᬩᬗᬦ᭄ ᬳᬮᬫ᭄ ᬤᬦ᭄ ᬫᭂᬂᬳᭀᬃᬫᬢᬶ ᬓᭂᬓᬸᬳᬢᬦ᭄ ᬩᬸᬫᬶ ᬧᭂᬃᬢᬶᬯᬶ᭟ ",
+    "highlights": [
+      "Keseimbangan kosmis antara api, air, dan tanah",
+      "Kearifan lokal memuliakan bumi dan kelestarian alam",
+      "Falsafah sakral yang terwujud dalam arsitektur Padmasana"
     ],
-    level: "SMP",
+    "level": "SMP"
   },
   {
-    id: 8,
-    slug: "batara-kala",
-    title: "Batara Kala",
-    category: "Mitos Dewa dan Raksasa",
-    summary:
-      "Raksasa penguasa waktu yang dijinakkan oleh Dewa Siwa.",
-    description:
-      "Batara Kala adalah raksasa penguasa waktu. " +
-      "Ia lahir dari Dewa Siwa dan sempat hendak memangsa manusia. " +
-      "Dewa Siwa kemudian memberinya tugas sebagai penguasa waktu dan jalan yang harus dihormati. " +
-      "Kisah ini melatarbelakangi upacara Sapuh Leger untuk menjaga keselamatan keluarga.",
-    imageUrl: "https://images.pexels.com/photos/27375286/pexels-photo-27375286.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    aksaraText: "ᬩᬢᬭ ᬓᬮ ᬅᬤᬮᬳ᭄ ᬭᬓ᭄ᬲᬲ ᬧᬾᬗᬸᬅᬲ ᬯᬓ᭄ᬢᬸ ᭟",
-    highlights: [
-      "Kekuatan yang liar dapat diarahkan dengan kebijaksanaan",
-      "Dewa melindungi manusia dengan memberi tugas",
-      "Upacara dan doa menjaga keselamatan bersama",
+    "id": 8,
+    "slug": "batara-kala",
+    "title": "Batara Kala",
+    "category": "Mitos Dewa dan Raksasa",
+    "summary": "Legenda penguasa waktu dan takdir yang melahirkan upacara ruwatan Wayang Sapuh Leger demi keselamatan insani.",
+    "description": "Batara Kala adalah salah satu sosok paling masyhur dalam mitologi Bali sebagai perwujudan waktu (kala) yang menelan segala hal fana di alam semesta. Kelahirannya bermula dari benih kesaktian Bhatara Siwa yang jatuh ke samudra luas saat melintasi angkasa. Dari benih sakti itu, lahirlah sesosok raksasa yang amat dahsyat bertaring tajam, bertubuh menjulang menyentuh awan, dan memiliki suara laksana halilintar.\n\nRaksasa itu kemudian naik ke Kahyangan mencari asal-usulnya. Bhatara Siwa mengakui raksasa tersebut sebagai putranya dan menganugerahinya nama Batara Kala. Karena memiliki nafsu lapar yang tak terhingga, Batara Kala memohon izin untuk memangsa manusia. Bhatara Siwa pun memberikan titah bahwa Batara Kala hanya boleh memangsa orang-orang yang lahir pada waktu tertentu (wuku Wayang) atau orang yang melanggar pantangan hidup (disebut anak sukerta).\n\nSuatu ketika, Batara Kala hendak mengejar seorang anak sukerta bernama Raden Kumara yang lahir pada wuku Wayang. Raden Kumara berlari ketakutan mencari perlindungan hingga tiba di sebuah panggung pertunjukan wayang yang sedang dimainkan oleh seorang dalang suci (Mpu Leger).\n\nTanpa permisi, Raden Kumara bersembunyi di dalam bumbung gender (alat musik gamelan wayang). Batara Kala yang lapar tiba di tempat itu dan dengan rakus memakan seluruh sesajen (banten) persembahan milik Ki Dalang. Mengetahui sesajennya habis dimakan, Ki Dalang menegur Batara Kala dan menuntut ganti rugi.\n\nMerasa telah memakan hak orang lain tanpa izin, Batara Kala merasa berutang budi kepada Ki Dalang. Sebagai gantinya, Batara Kala berjanji bahwa ia tidak akan pernah memangsa siapapun yang telah diruwat melalui pementasan Wayang Sapuh Leger. Hingga saat ini, tradisi pementasan Wayang Sapuh Leger tetap lestari di Bali sebagai upacara penyucian untuk menetralisir energi negatif dan marabahaya waktu.",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Batara_Kala_atau_Gundawijaya_dalam_album_wayang_kulit_banjar.jpg/960px-Batara_Kala_atau_Gundawijaya_dalam_album_wayang_kulit_banjar.jpg",
+    "aksaraText": "ᬩᬢᬭ ᬓᬮ ᬳᬤᬮᬄ ᬲᬮᬄ ᬲᬢᬸ ᬲᭀᬲᭀᬓ᭄ ᬧᬮᬶᬂ ᬫᬰ᭄ᬳᬸᬃ ᬤᬮᬫ᭄ ᬫᬶᬢᭀᬮᭀᬕᬶ ᬩᬮᬶ ᬲᭂᬩᬕᬳᬶ ᬧᭂᬃᬯᬸᬚᬸᬤᬦ᭄ ᬯᬓ᭄ᬢᬸ ᬓᬮ ᬬᬂ ᬫᭂᬦᬾᬮᬦ᭄ ᬲᭂᬕᬮ ᬳᬮ᭄ ᬧᬦ ᬤᬶ ᬳᬮᬫ᭄ ᬲᭂᬫᬾᬲ᭄ᬢ᭟  ᬓᭂᬮᬳᬶᬭᬦ᭄ᬜ ᬩᭂᬃᬫᬸᬮ ᬤᬭᬶ ᬩᬾᬦᬶᬄ ᬓᭂᬲᬓ᭄ᬢᬶᬳᬦ᭄ ᬩ᭄ᬳᬢᬭ ᬲᬶᬯ ᬬᬂ ᬚᬢᬸᬄ ᬓᬾ ᬲᬫᬸᬤ᭄ᬭ ᬮᬸᬳᬲ᭄ ᬲᬳᬢ᭄ ᬫᭂᬮᬶᬦ᭄ᬢᬲᬶ ᬳᬂᬓᬲ᭟  ᬤᬭᬶ ᬩᬾᬦᬶᬄ ᬲᬓ᭄ᬢᬶ ᬳᬶᬢᬸ᭞  ᬮᬳᬶᬃᬮᬄ ᬲᭂᬲᭀᬲᭀᬓ᭄ ᬭᬓ᭄ᬲᬲ ᬬᬂ ᬳᬫᬢ᭄ ᬤᬄᬰᬢ᭄ ᬩᭂᬃᬢᬭᬶᬂ ᬢᬚᬫ᭄᭞  ᬩᭂᬃᬢᬸᬩᬸᬄ ᬫᭂᬦ᭄ᬚᬸᬮᬂ ᬫᭂᬜᬾᬦ᭄ᬢᬸᬄ ᬳᬯᬦ᭄᭞  ᬤᬦ᭄ ᬫᭂᬫᬶᬮᬶᬓᬶ ᬲᬸᬳᬭ ᬮᬓ᭄ᬲᬦ ᬳᬮᬶᬮᬶᬦ᭄ᬢᬃ᭟ \n\nᬭᬓ᭄ᬲᬲ ᬳᬶᬢᬸ ᬓᭂᬫᬸᬤᬶᬳᬦ᭄ ᬦᬳᬶᬓ᭄ ᬓᬾ ᬓᬄᬬᬗᬦ᭄ ᬫᭂᬦ᭄ᬘᬭᬶ ᬳᬲᬮ᭄ᬳᬸᬲᬸᬮ᭄ᬜ᭟  ᬩ᭄ᬳᬢᬭ ᬲᬶᬯ ᬫᭂᬗᬓᬸᬳᬶ ᬭᬓ᭄ᬲᬲ ᬢᭂᬃᬲᬾᬩᬸᬢ᭄ ᬲᭂᬩᬕᬳᬶ ᬧᬸᬢ᭄ᬭᬜ ᬤᬦ᭄ ᬫᭂᬗᬦᬸᬕᬾᬭᬳᬶᬜ ᬦᬫ ᬩᬢᬭ ᬓᬮ᭟  ᬓᬭᬾᬦ ᬫᭂᬫᬶᬮᬶᬓᬶ ᬦᬧ᭄ᬲᬸ ᬮᬧᬃ ᬬᬂ ᬢᬓ᭄ ᬢᭂᬃᬳᬶᬂᬕ᭞  ᬩᬢᬭ ᬓᬮ ᬫᭂᬫᭀᬳᭀᬦ᭄ ᬳᬶᬚᬶᬦ᭄ ᬳᬸᬦ᭄ᬢᬸᬓ᭄ ᬫᭂᬫᬂᬲ ᬫᬦᬸᬲᬶᬳ᭟  ᬩ᭄ᬳᬢᬭ ᬲᬶᬯ ᬧᬸᬦ᭄ ᬫᭂᬫ᭄ᬩᬾᬭᬶᬓᬦ᭄ ᬢᬶᬢᬄ ᬩᬄᬯ ᬩᬢᬭ ᬓᬮ ᬳᬜ ᬩᭀᬮᬾᬄ ᬫᭂᬫᬂᬲ ᬳᭀᬭᬂᬳᭀᬭᬂ ᬬᬂ ᬮᬳᬶᬃ ᬧᬤ ᬯᬓ᭄ᬢᬸ ᬢᭂᬃᬢᬾᬦ᭄ᬢᬸ ᬯᬸᬓᬸ ᬯᬬᬂ ᬳᬢᬳᬸ ᬳᭀᬭᬂ ᬬᬂ ᬫᭂᬮᬂᬕᬃ ᬧᬦ᭄ᬢᬗᬦ᭄ ᬳᬶᬤᬸᬧ᭄ ᬤᬶᬲᬾᬩᬸᬢ᭄ ᬳᬦᬓ᭄ ᬲᬸᬓᬾᬃᬢ᭟ \n\nᬲᬸᬳᬢᬸ ᬓᭂᬢᬶᬓ᭞  ᬩᬢᬭ ᬓᬮ ᬳᬾᬦ᭄ᬤᬓ᭄ ᬫᭂᬗᬾᬚᬃ ᬲᭂᬳᭀᬭᬂ ᬳᬦᬓ᭄ ᬲᬸᬓᬾᬃᬢ ᬩᭂᬃᬦᬫ ᬭᬤᬾᬦ᭄ ᬓᬸᬫᬭ ᬬᬂ ᬮᬳᬶᬃ ᬧᬤ ᬯᬸᬓᬸ ᬯᬬᬂ᭟  ᬭᬤᬾᬦ᭄ ᬓᬸᬫᬭ ᬩᭂᬃᬮᬭᬶ ᬓᭂᬢᬓᬸᬢᬦ᭄ ᬫᭂᬦ᭄ᬘᬭᬶ ᬧᭂᬃᬮᬶᬦ᭄ᬤᬸᬗᬦ᭄ ᬳᬶᬂᬕ ᬢᬶᬩ ᬤᬶ ᬲᭂᬩᬸᬳᬄ ᬧᬂᬕᬸᬂ ᬧᭂᬃᬢᬸᬦ᭄ᬚᬸᬓᬦ᭄ ᬯᬬᬂ ᬬᬂ ᬲᭂᬤᬂ ᬤᬶᬫᬳᬶᬦ᭄ᬓᬦ᭄ ᬳᭀᬮᬾᬄ ᬲᭂᬳᭀᬭᬂ ᬤᬮᬂ ᬲᬸᬘᬶ ᬫ᭄ᬧᬸ ᬮᬾᬕᬾᬃ᭟ \n\nᬢᬦ᭄ᬧ ᬧᭂᬃᬫᬶᬲᬶ᭞  ᬭᬤᬾᬦ᭄ ᬓᬸᬫᬭ ᬩᭂᬃᬲᬾᬫ᭄ᬩᬸᬜᬶ ᬤᬶ ᬤᬮᬫ᭄ ᬩᬸᬫ᭄ᬩᬸᬂ ᬕᬾᬦ᭄ᬤᬾᬃ ᬳᬮᬢ᭄ ᬫᬸᬲᬶᬓ᭄ ᬕᬫᬾᬮᬦ᭄ ᬯᬬᬂ᭟  ᬩᬢᬭ ᬓᬮ ᬬᬂ ᬮᬧᬃ ᬢᬶᬩ ᬤᬶ ᬢᬾᬫ᭄ᬧᬢ᭄ ᬳᬶᬢᬸ ᬤᬦ᭄ ᬤᬾᬗᬦ᭄ ᬭᬓᬸᬲ᭄ ᬫᭂᬫᬓᬦ᭄ ᬲᭂᬮᬸᬭᬸᬄ ᬲᭂᬲᬚᬾᬦ᭄ ᬩᬦ᭄ᬢᬾᬦ᭄ ᬧᭂᬃᬲᬾᬫ᭄ᬩᬳᬦ᭄ ᬫᬶᬮᬶᬓ᭄ ᬓᬶ ᬤᬮᬂ᭟  ᬫᭂᬗᬾᬢᬳᬸᬳᬶ ᬲᭂᬲᬚᬾᬦ᭄ᬜ ᬳᬩᬶᬲ᭄ ᬤᬶᬫᬓᬦ᭄᭞  ᬓᬶ ᬤᬮᬂ ᬫᭂᬦᬾᬕᬸᬃ ᬩᬢᬭ ᬓᬮ ᬤᬦ᭄ ᬫᭂᬦᬸᬦ᭄ᬢᬸᬢ᭄ ᬕᬦ᭄ᬢᬶ ᬭᬸᬕᬶ᭟ \n\nᬫᭂᬭᬲ ᬢᬾᬮᬄ ᬫᭂᬫᬓᬦ᭄ ᬳᬓ᭄ ᬳᭀᬭᬂ ᬮᬳᬶᬦ᭄ ᬢᬦ᭄ᬧ ᬳᬶᬚᬶᬦ᭄᭞  ᬩᬢᬭ ᬓᬮ ᬫᭂᬭᬲ ᬩᭂᬭᬸᬢᬂ ᬩᬸᬤᬶ ᬓᭂᬧᬤ ᬓᬶ ᬤᬮᬂ᭟  ᬲᭂᬩᬕᬳᬶ ᬕᬦ᭄ᬢᬶᬜ᭞  ᬩᬢᬭ ᬓᬮ ᬩᭂᬃᬚᬦ᭄ᬚᬶ ᬩᬄᬯ ᬳᬶᬳ ᬢᬶᬤᬓ᭄ ᬳᬓᬦ᭄ ᬧᭂᬃᬦᬄ ᬫᭂᬫᬂᬲ ᬲᬶᬳᬧᬧᬸᬦ᭄ ᬬᬂ ᬢᬾᬮᬄ ᬤᬶᬭᬸᬯᬢ᭄ ᬫᭂᬮᬮᬸᬳᬶ ᬧᭂᬫᬾᬦ᭄ᬢᬲᬦ᭄ ᬯᬬᬂ ᬲᬧᬸᬄ ᬮᬾᬕᬾᬃ᭟  ᬳᬶᬂᬕ ᬲᬳᬢ᭄ ᬳᬶᬦᬶ᭞  ᬢ᭄ᬭᬤᬶᬲᬶ ᬧᭂᬫᬾᬦ᭄ᬢᬲᬦ᭄ ᬯᬬᬂ ᬲᬧᬸᬄ ᬮᬾᬕᬾᬃ ᬢᬾᬢᬧ᭄ ᬮᬾᬲ᭄ᬢᬭᬶ ᬤᬶ ᬩᬮᬶ ᬲᭂᬩᬕᬳᬶ ᬳᬸᬧᬘᬭ ᬧᭂᬜᬸᬘᬶᬳᬦ᭄ ᬳᬸᬦ᭄ᬢᬸᬓ᭄ ᬫᭂᬦᬾᬢ᭄ᬭᬮᬶᬲᬶᬃ ᬳᬾᬦᬾᬃᬕᬶ ᬦᬾᬕᬢᬶᬧ᭄ ᬤᬦ᭄ ᬫᬭᬩᬳᬬ ᬯᬓ᭄ᬢᬸ᭟ ",
+    "highlights": [
+      "Waktu adalah misteri yang senantiasa menuntut mawas diri",
+      "Kekuatan spiritual dan seni wayang sebagai sarana perlindungan",
+      "Tradisi ruwatan Wayang Sapuh Leger sebagai kearifan luhur Bali"
     ],
-    level: "SMA/SMK",
+    "level": "SMA/SMK"
   },
   {
-    id: 9,
-    slug: "pan-balang-tamak",
-    title: "Pan Balang Tamak",
-    category: "Dongeng Manusia",
-    summary:
-      "Dongeng tentang seorang lelaki rakus yang selalu ingin lebih dari haknya.",
-    description:
-      "Pan Balang Tamak adalah lelaki yang rakus. " +
-      "Ia selalu ingin mendapat lebih banyak dari yang seharusnya, baik makanan maupun harta. " +
-      "Kerakusannya justru membuat ia kehilangan kepercayaan orang di sekitarnya.",
-    imageUrl: "https://images.pexels.com/photos/1133086/pexels-photo-1133086.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    aksaraText: "ᬧᬂ ᬩᬮᬂ ᬢᬫᬓ ᬅᬤᬮᬳ᭄ ᬮᬾᬮᬓᬶ ᬬᬂ ᬭᬓᬸᬲ᭄ ᭟",
-    highlights: [
-      "Rasa cukup membawa ketenangan",
-      "Ketamakan dapat merusak kepercayaan orang lain",
-      "Berbagi adalah kebaikan yang dihargai",
+    "id": 9,
+    "slug": "pan-balang-tamak",
+    "title": "Pan Balang Tamak",
+    "category": "Dongeng Manusia",
+    "summary": "Satua Bali legendaris tentang kecerdikan seorang tokoh rakyat yang lihai membalikkan aturan dan menjebak orang-orang serakah.",
+    "description": "Dalam khazanah Satua Bali, nama Pan Balang Tamak sangat masyhur sebagai tokoh rakyat jelata yang memiliki kecerdasan luar biasa, cerdik, dan jenaka. Di desanya, Pan Balang Tamak kerap berselisih paham dengan para tetua desa dan penguasa yang sering membuat aturan sewenang-wenang untuk memeras rakyat kecil dengan berbagai denda.\n\nSuatu hari, warga desa yang merasa iri dan kesal pada kecerdikan Pan Balang Tamak bersekongkol menjebaknya. Para tetua mengumumkan bahwa esok subuh seluruh warga wajib pergi ke hutan mencari kayu bakar tepat saat ayam jantan berkokok. Barangsiapa yang terlambat atau ayamnya belum berkokok akan dijatuhi denda emas yang besar.\n\nPan Balang Tamak yang mengetahui rencana jahat itu tidak kehabisan akal. Pada malam harinya, ia mengurung ayam jantannya di dalam lumbung tertutup rapat agar tidak melihat cahaya fajar. Ketika ayam-ayam warga desa mulai berkokok bersahut-sahutan di waktu subuh, ayam Pan Balang Tamak tetap tertidur pulas. Saat warga desa datang untuk mendendanya, Pan Balang Tamak dengan santai menunjukkan bahwa ayam jantannya memang belum berkokok, sehingga ia sama sekali tidak melanggar bunyi aturan yang disepakati.\n\nPada kisah lain ketika seekor anjing kesayangannya mati, Pan Balang Tamak menggelar upacara kematian mewah layaknya bangsawan. Para pemuka desa yang tergiur harta segera datang meminta bagian upeti. Dengan kepandaian berdiplomasi dan permainan kata-kata yang cerdas, Pan Balang Tamak justru berhasil membuat para pejabat serakah itu menanggung malu dan mengakui kecerdikannya. Kisah Pan Balang Tamak hingga kini menjadi dongeng rakyat favorit yang mengajarkan pentingnya berpikir kritis, cerdas memperjuangkan keadilan, dan tidak boleh silau oleh tipu daya kekuasaan.",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Bali-lontar-gaguritan-pan-balang-tamak-350ppi.pdf/page1-960px-Bali-lontar-gaguritan-pan-balang-tamak-350ppi.pdf.jpg",
+    "aksaraText": "ᬤᬮᬫ᭄ ᬔᬚᬦᬄ ᬲᬢᬸᬳ ᬩᬮᬶ᭞  ᬦᬫ ᬧᬦ᭄ ᬩᬮᬂ ᬢᬫᬓ᭄ ᬲᬗᬢ᭄ ᬫᬰ᭄ᬳᬸᬃ ᬲᭂᬩᬕᬳᬶ ᬢᭀᬓᭀᬄ ᬭᬓ᭄ᬬᬢ᭄ ᬚᬾᬮᬢ ᬬᬂ ᬫᭂᬫᬶᬮᬶᬓᬶ ᬓᭂᬘᬾᬃᬤᬲᬦ᭄ ᬮᬸᬳᬃ ᬩᬶᬳᬲ᭞  ᬘᬾᬃᬤᬶᬓ᭄᭞  ᬤᬦ᭄ ᬚᬾᬦᬓ᭟  ᬤᬶ ᬤᬾᬲᬜ᭞  ᬧᬦ᭄ ᬩᬮᬂ ᬢᬫᬓ᭄ ᬓᭂᬭᬧ᭄ ᬩᭂᬃᬲᬾᬮᬶᬲᬶᬄ ᬧᬳᬫ᭄ ᬤᬾᬗᬦ᭄ ᬧᬭ ᬢᬾᬢᬸᬳ ᬤᬾᬲ ᬤᬦ᭄ ᬧᭂᬗᬸᬳᬲ ᬬᬂ ᬲᭂᬭᬶᬂ ᬫᭂᬫ᭄ᬩᬸᬳᬢ᭄ ᬳᬢᬸᬭᬦ᭄ ᬲᭂᬯᬾᬦᬂᬯᬾᬦᬂ ᬳᬸᬦ᭄ᬢᬸᬓ᭄ ᬫᭂᬫᬾᬭᬲ᭄ ᬭᬓ᭄ᬬᬢ᭄ ᬓᭂᬘᬶᬮ᭄ ᬤᬾᬗᬦ᭄ ᬩᭂᬃᬩᬕᬳᬶ ᬤᬾᬦ᭄ᬤ᭟ \n\nᬲᬸᬳᬢᬸ ᬳᬭᬶ᭞  ᬯᬃᬕ ᬤᬾᬲ ᬬᬂ ᬫᭂᬭᬲ ᬳᬶᬭᬶ ᬤᬦ᭄ ᬓᭂᬲᬮ᭄ ᬧᬤ ᬓᭂᬘᬾᬃᬤᬶᬓᬦ᭄ ᬧᬦ᭄ ᬩᬮᬂ ᬢᬫᬓ᭄ ᬩᭂᬃᬲᬾᬓᭀᬂᬓᭀᬮ᭄ ᬫᭂᬦ᭄ᬚᬾᬩᬓ᭄ᬜ᭟  ᬧᬭ ᬢᬾᬢᬸᬳ ᬫᭂᬗᬸᬫᬸᬫ᭄ᬓᬦ᭄ ᬩᬄᬯ ᬳᬾᬲᭀᬓ᭄ ᬲᬸᬩᬸᬄ ᬲᭂᬮᬸᬭᬸᬄ ᬯᬃᬕ ᬯᬚᬶᬩ᭄ ᬧᭂᬃᬕᬶ ᬓᬾ ᬳᬸᬢᬦ᭄ ᬫᭂᬦ᭄ᬘᬭᬶ ᬓᬬᬸ ᬩᬓᬃ ᬢᬾᬧᬢ᭄ ᬲᬳᬢ᭄ ᬳᬬᬫ᭄ ᬚᬦ᭄ᬢᬦ᭄ ᬩᭂᬃᬓᭀᬓᭀᬓ᭄᭟  ᬩᬭᬂᬲᬶᬳᬧ ᬬᬂ ᬢᭂᬃᬮᬫ᭄ᬩᬢ᭄ ᬳᬢᬳᬸ ᬳᬬᬫ᭄ᬜ ᬩᬾᬮᬸᬫ᭄ ᬩᭂᬃᬓᭀᬓᭀᬓ᭄ ᬳᬓᬦ᭄ ᬤᬶᬚᬢᬸᬳᬶ ᬤᬾᬦ᭄ᬤ ᬳᬾᬫᬲ᭄ ᬬᬂ ᬩᭂᬲᬃ᭟ \n\nᬧᬦ᭄ ᬩᬮᬂ ᬢᬫᬓ᭄ ᬬᬂ ᬫᭂᬗᬾᬢᬳᬸᬳᬶ ᬭᬾᬦ᭄ᬘᬦ ᬚᬳᬢ᭄ ᬳᬶᬢᬸ ᬢᬶᬤᬓ᭄ ᬓᭂᬳᬩᬶᬲᬦ᭄ ᬳᬓᬮ᭄᭟  ᬧᬤ ᬫᬮᬫ᭄ ᬳᬭᬶᬜ᭞  ᬳᬶᬳ ᬫᭂᬗᬸᬭᬸᬂ ᬳᬬᬫ᭄ ᬚᬦ᭄ᬢᬦ᭄ᬜ ᬤᬶ ᬤᬮᬫ᭄ ᬮᬸᬫ᭄ᬩᬸᬂ ᬢᭂᬃᬢᬸᬢᬸᬧ᭄ ᬭᬧᬢ᭄ ᬳᬕᬃ ᬢᬶᬤᬓ᭄ ᬫᭂᬮᬶᬳᬢ᭄ ᬘᬳᬬ ᬧᬚᬃ᭟  ᬓᭂᬢᬶᬓ ᬳᬬᬫ᭄ᬳᬬᬫ᭄ ᬯᬃᬕ ᬤᬾᬲ ᬫᬸᬮᬳᬶ ᬩᭂᬃᬓᭀᬓᭀᬓ᭄ ᬩᭂᬃᬲᬳᬸᬢ᭄ᬲᬳᬸᬢᬦ᭄ ᬤᬶ ᬯᬓ᭄ᬢᬸ ᬲᬸᬩᬸᬄ᭞  ᬳᬬᬫ᭄ ᬧᬦ᭄ ᬩᬮᬂ ᬢᬫᬓ᭄ ᬢᬾᬢᬧ᭄ ᬢᭂᬃᬢᬶᬤᬸᬃ ᬧᬸᬮᬲ᭄᭟  ᬲᬳᬢ᭄ ᬯᬃᬕ ᬤᬾᬲ ᬤᬢᬂ ᬳᬸᬦ᭄ᬢᬸᬓ᭄ ᬫᭂᬦ᭄ᬤᬾᬦ᭄ᬤᬜ᭞  ᬧᬦ᭄ ᬩᬮᬂ ᬢᬫᬓ᭄ ᬤᬾᬗᬦ᭄ ᬲᬦ᭄ᬢᬳᬶ ᬫᭂᬦᬸᬦ᭄ᬚᬸᬓ᭄ᬓᬦ᭄ ᬩᬄᬯ ᬳᬬᬫ᭄ ᬚᬦ᭄ᬢᬦ᭄ᬜ ᬫᭂᬫᬂ ᬩᬾᬮᬸᬫ᭄ ᬩᭂᬃᬓᭀᬓᭀᬓ᭄᭞  ᬲᭂᬳᬶᬂᬕ ᬳᬶᬳ ᬲᬫ ᬲᭂᬓᬮᬶ ᬢᬶᬤᬓ᭄ ᬫᭂᬮᬂᬕᬃ ᬩᬸᬜᬶ ᬳᬢᬸᬭᬦ᭄ ᬬᬂ ᬤᬶᬲᬾᬧᬓᬢᬶ᭟ \n\nᬧᬤ ᬓᬶᬲᬄ ᬮᬳᬶᬦ᭄ ᬓᭂᬢᬶᬓ ᬲᭂᬳᬾᬓᭀᬃ ᬳᬦ᭄ᬚᬶᬂ ᬓᭂᬲᬬᬗᬦ᭄ᬜ ᬫᬢᬶ᭞  ᬧᬦ᭄ ᬩᬮᬂ ᬢᬫᬓ᭄ ᬫᭂᬂᬕᬾᬮᬃ ᬳᬸᬧᬘᬭ ᬓᭂᬫᬢᬶᬳᬦ᭄ ᬫᭂᬯᬄ ᬮᬬᬓ᭄ᬜ ᬩᬂᬲᬯᬦ᭄᭟  ᬧᬭ ᬧᭂᬫᬸᬓ ᬤᬾᬲ ᬬᬂ ᬢᭂᬃᬕᬶᬳᬸᬃ ᬳᬃᬢ ᬲᭂᬕᬾᬭ ᬤᬢᬂ ᬫᭂᬫᬶᬦ᭄ᬢ ᬩᬕᬶᬳᬦ᭄ ᬳᬸᬧᬾᬢᬶ᭟  ᬤᬾᬗᬦ᭄ ᬓᭂᬧᬦ᭄ᬤᬳᬶᬳᬦ᭄ ᬩᭂᬃᬤᬶᬧ᭄ᬮᭀᬫᬲᬶ ᬤᬦ᭄ ᬧᭂᬃᬫᬳᬶᬦᬦ᭄ ᬓᬢᬓᬢ ᬬᬂ ᬘᬾᬃᬤᬲ᭄᭞  ᬧᬦ᭄ ᬩᬮᬂ ᬢᬫᬓ᭄ ᬚᬸᬲ᭄ᬢ᭄ᬭᬸ ᬩᭂᬃᬳᬲᬶᬮ᭄ ᬫᭂᬫ᭄ᬩᬸᬳᬢ᭄ ᬧᬭ ᬧᬾᬚᬩᬢ᭄ ᬲᭂᬭᬓᬄ ᬳᬶᬢᬸ ᬫᭂᬦᬂᬕᬸᬂ ᬫᬮᬸ ᬤᬦ᭄ ᬫᭂᬗᬓᬸᬳᬶ ᬓᭂᬘᬾᬃᬤᬶᬓᬦ᭄ᬜ᭟  ᬓᬶᬲᬄ ᬧᬦ᭄ ᬩᬮᬂ ᬢᬫᬓ᭄ ᬳᬶᬂᬕ ᬓᬶᬦᬶ ᬫᭂᬦ᭄ᬚᬤᬶ ᬤᭀᬗᬾᬂ ᬭᬓ᭄ᬬᬢ᭄ ᬧᬯᭀᬭᬶᬢ᭄ ᬬᬂ ᬫᭂᬗᬚᬃᬓᬦ᭄ ᬧᭂᬦ᭄ᬢᬶᬂᬜ ᬩᭂᬃᬧᬶᬓᬶᬃ ᬓ᭄ᬭᬶᬢᬶᬲ᭄᭞  ᬘᬾᬃᬤᬲ᭄ ᬫᭂᬫ᭄ᬧᬾᬃᬚᬸᬳᬂᬓᬦ᭄ ᬓᭂᬳᬤᬶᬮᬦ᭄᭞  ᬤᬦ᭄ ᬢᬶᬤᬓ᭄ ᬩᭀᬮᬾᬄ ᬲᬶᬮᬳᬸ ᬳᭀᬮᬾᬄ ᬢᬶᬧᬸ ᬤᬬ ᬓᭂᬓᬸᬳᬲᬳᬦ᭄᭟ ",
+    "highlights": [
+      "Kecerdikan berpikir kritis mampu membela diri dari kelaliman",
+      "Hukum dan aturan tidak boleh dijadikan alat kesewenang-wenangan",
+      "Karakter jenaka rakyat dalam sastra tutur Bali"
     ],
-    level: "SD",
-  },
+    "level": "SD"
+  }
 ];

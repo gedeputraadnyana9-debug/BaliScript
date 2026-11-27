@@ -17,13 +17,14 @@ function toggle() {
   if (props.src) return play(props.src);
 }
 
-const title = computed(() => (error.value ? "Audio tidak tersedia" : props.label));
+const isError = computed(() => error.value && !playing.value);
+const title = computed(() => (isError.value ? "Audio tidak tersedia" : props.label));
 </script>
 
 <template>
   <button
     class="audio-btn"
-    :class="[`audio-btn--${size}`, { 'is-playing': playing, 'is-error': error }]"
+    :class="[`audio-btn--${size}`, { 'is-playing': playing, 'is-error': isError }]"
     :title="title"
     :aria-label="title"
     @click="toggle"
@@ -39,7 +40,7 @@ const title = computed(() => (error.value ? "Audio tidak tersedia" : props.label
       </svg>
     </span>
     <span v-if="size !== 'icon'" class="audio-btn__label">
-      <template v-if="error">Audio gagal</template>
+      <template v-if="isError">Audio gagal</template>
       <template v-else-if="playing">Berhenti</template>
       <template v-else>Dengar</template>
     </span>

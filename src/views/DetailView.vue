@@ -35,14 +35,14 @@ const more = computed(() =>
 
     <div class="container detail__body">
       <section class="detail__aksara">
-        <h2>Teks Aksara Bali</h2>
+        <h2>Teks Aksara Bali (Cerita Utama)</h2>
         <BaseCard class="aksara-panel">
           <p class="aksara-panel__text" lang="ban" dir="ltr">{{ story.aksaraText }}</p>
         </BaseCard>
       </section>
 
       <section class="detail__intro">
-        <h2>Bahasa Indonesia</h2>
+        <h2>Terjemahan Bahasa Indonesia</h2>
         <BaseCard class="text-panel">
           <p class="detail__desc">{{ story.description }}</p>
         </BaseCard>
@@ -100,13 +100,13 @@ const more = computed(() =>
 .detail__body { max-width: var(--container-narrow); padding: var(--sp-12) var(--sp-4) 0; }
 @media (min-width: 768px) { .detail__body { padding-inline: var(--sp-8); } }
 .detail__intro { margin-bottom: var(--sp-8); }
-.detail__desc { font-size: var(--fs-lg); line-height: var(--lh-relaxed); color: var(--color-text); margin: 0; }
+.detail__desc { font-size: var(--fs-lg); line-height: var(--lh-relaxed); color: var(--color-text); margin: 0; white-space: pre-line; }
 .detail__aksara { margin-bottom: var(--sp-8); }
 .detail__aksara h2, .detail__intro h2 { font-size: var(--fs-xl); margin-bottom: var(--sp-3); }
 
 .aksara-panel, .text-panel { padding: var(--sp-6); }
 .aksara-panel { background: linear-gradient(180deg, var(--c-primary-50), var(--color-surface)); border-color: var(--c-primary-100); }
-.aksara-panel__text { font-size: clamp(1.5rem, 4vw, 2.25rem); line-height: 1.8; color: var(--c-primary-800); margin: 0; text-align: center; word-break: break-word; }
+.aksara-panel__text { font-family: var(--font-aksara); font-size: clamp(1.4rem, 3.5vw, 1.85rem); line-height: 2.2; color: var(--c-primary-800); margin: 0; text-align: left; word-break: break-word; white-space: pre-line; }
 
 .highlights { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: var(--sp-3); }
 .highlights__item { display: flex; align-items: flex-start; gap: var(--sp-3); padding: var(--sp-4); background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--r-lg); }

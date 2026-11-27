@@ -32,6 +32,10 @@ const colors = ["#1565c0", "#e53935", "#fb8c00", "#43a047", "#8e24aa", "#263238"
 
 const guideScore = computed(() => store.getters["aksara/scoreOf"](guide.value.id));
 
+function isStacked(char) {
+  return Boolean(char && (char.includes("\u1B44") || char.length > 2));
+}
+
 function feedbackFor(score) {
   if (score >= 80) return { label: "Sangat tepat!", tone: "great" };
   if (score >= 55) return { label: "Sudah baik, rapikan lagi.", tone: "good" };
@@ -172,7 +176,7 @@ watch(brush, () => { if (ctx.value) ctx.value.lineWidth = brush.value; });
               :title="a.title"
               @click="selectAksara(a)"
             >
-              <span class="picker__glyph">{{ a.character }}</span>
+              <span class="picker__glyph" :class="{ 'picker__glyph--stacked': isStacked(a.character) }">{{ a.character }}</span>
               <span class="picker__name">{{ a.title }}</span>
               <span v-if="store.getters['aksara/scoreOf'](a.id)" class="picker__score">
                 {{ store.getters['aksara/scoreOf'](a.id).best }}
@@ -186,7 +190,7 @@ watch(brush, () => { if (ctx.value) ctx.value.lineWidth = brush.value; });
         <BaseCard padding="lg" class="canvas-card">
           <div class="canvas-card__head">
             <div class="guide-info">
-              <span class="guide-glyph">{{ guide.character }}</span>
+              <span class="guide-glyph" :class="{ 'guide-glyph--stacked': isStacked(guide.character) }">{{ guide.character }}</span>
               <div>
                 <h3 class="guide-title">{{ guide.title }}</h3>
                 <p class="guide-pron">/{{ guide.pronunciation }}/</p>
@@ -200,7 +204,12 @@ watch(brush, () => { if (ctx.value) ctx.value.lineWidth = brush.value; });
           </div>
 
           <div class="canvas-wrap">
-            <span v-if="showGuide" class="canvas-guide" aria-hidden="true">{{ guide.character }}</span>
+            <span
+              v-if="showGuide"
+              class="canvas-guide"
+              :class="{ 'canvas-guide--stacked': isStacked(guide.character) }"
+              aria-hidden="true"
+            >{{ guide.character }}</span>
             <canvas
               ref="canvasRef"
               class="canvas"
@@ -277,32 +286,93 @@ watch(brush, () => { if (ctx.value) ctx.value.lineWidth = brush.value; });
 .group + .group { margin-top: var(--sp-5); }
 .practice__sidebar h3 { font-size: var(--fs-sm); margin-bottom: var(--sp-2); color: var(--color-text-muted); text-transform: uppercase; letter-spacing: 0.06em; }
 .picker { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--sp-2); }
-.picker__item { position: relative; display: flex; flex-direction: column; align-items: center; gap: 2px; padding: var(--sp-2); border: 2px solid var(--color-border); border-radius: var(--r-md); background: var(--color-surface); transition: transform var(--dur-fast) var(--ease-out), background var(--dur-fast); }
+.picker__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 6px 4px;
+  min-height: 76px;
+  border: 2px solid var(--color-border);
+  border-radius: var(--r-md);
+  background: var(--color-surface);
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: transform var(--dur-fast) var(--ease-out), background var(--dur-fast);
+}
 .picker__item:hover { transform: translateY(-2px); background: var(--color-primary-soft); }
 .picker__item--active { border-color: var(--color-ink); background: var(--c-accent-100); }
-.picker__glyph { font-family: "Noto Sans Balinese", sans-serif; font-size: 1.5rem; color: var(--color-primary); line-height: 1.3; }
-.picker__name { font-size: 0.6875rem; color: var(--color-text-muted); text-align: center; line-height: 1.2; }
+.picker__glyph {
+  font-family: "Noto Sans Balinese", sans-serif;
+  font-size: 1.15rem;
+  color: var(--color-primary);
+  line-height: 1.3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.2rem;
+  width: 100%;
+  max-width: 100%;
+}
+.picker__glyph--stacked {
+  font-size: 0.9rem;
+  line-height: 1.15;
+}
+.picker__name { font-size: 0.625rem; color: var(--color-text-muted); text-align: center; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
 .picker__score { position: absolute; top: -6px; right: -6px; min-width: 24px; padding: 0 4px; border-radius: var(--r-full); background: var(--c-success-600); color: #fff; font-size: 0.6875rem; font-weight: var(--fw-bold); line-height: 20px; border: 2px solid var(--color-ink); }
 
 .canvas-card { padding: var(--sp-6); }
 .canvas-card__head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--sp-3); margin-bottom: var(--sp-4); }
 .guide-info { display: flex; align-items: center; gap: var(--sp-3); }
-.guide-glyph { font-family: "Noto Sans Balinese", sans-serif; font-size: 2.5rem; color: var(--color-ink); background: var(--c-accent-100); border: 3px solid var(--color-ink); padding: 0.25rem 1rem; border-radius: var(--r-md); }
+.guide-glyph {
+  font-family: "Noto Sans Balinese", sans-serif;
+  font-size: 1.875rem;
+  color: var(--color-ink);
+  background: var(--c-accent-100);
+  border: 3px solid var(--color-ink);
+  padding: 0.5rem 1rem 1.5rem;
+  border-radius: var(--r-md);
+  line-height: 1.2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 5.25rem;
+  min-width: 4.25rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.guide-glyph--stacked {
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
 .guide-title { margin: 0; font-size: var(--fs-lg); }
 .guide-pron { margin: 0; font-family: var(--font-mono); color: var(--color-secondary); font-size: var(--fs-sm); }
 .guide-best { margin: 0; font-size: var(--fs-xs); color: var(--color-text-muted); }
 .toggle { display: flex; align-items: center; gap: var(--sp-2); font-size: var(--fs-sm); color: var(--color-text-muted); cursor: pointer; }
 .toggle input { width: 16px; height: 16px; accent-color: var(--color-primary); }
 
-.canvas-wrap { position: relative; background: #fff; border: 3px dashed var(--color-ink); border-radius: var(--r-lg); overflow: hidden; aspect-ratio: 16 / 10; }
+.canvas-wrap { position: relative; background: #fff; border: 3px dashed var(--color-ink); border-radius: var(--r-lg); overflow: hidden; aspect-ratio: 4 / 3; }
 .canvas-guide {
   position: absolute; inset: 0;
-  display: grid; place-items: center;
+  display: flex; align-items: center; justify-content: center;
   font-family: "Noto Sans Balinese", sans-serif;
-  font-size: clamp(8rem, 28vw, 16rem);
+  font-size: clamp(3.5rem, 12vw, 6.5rem);
+  line-height: 1.2;
   color: var(--c-primary-200);
   opacity: 0.7;
   pointer-events: none; user-select: none;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.canvas-guide--stacked {
+  font-size: clamp(2.5rem, 9vw, 4.75rem);
+  line-height: 1.1;
 }
 .canvas { position: absolute; inset: 0; width: 100%; height: 100%; touch-action: none; cursor: crosshair; }
 
